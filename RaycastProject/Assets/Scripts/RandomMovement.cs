@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class RandomMovement : MonoBehaviour
 {
-    public float moveSpeed = 5f;  // 오브젝트의 이동 속도
+    public float moveSpeed = 3f;  // 오브젝트의 이동 속도
     public float changeDirectionTime = 2f;  // 방향을 변경하는 시간 간격
     public float rotationSpeed = 5f;  // 회전 속도
     public float positionCheckInterval = 0.1f;  // 위치를 확인하는 간격

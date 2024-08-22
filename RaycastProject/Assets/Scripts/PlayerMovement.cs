@@ -6,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
     public float changeDirectionTime = 2f;  // 방향을 변경하는 시간 간격
     public float rotationSpeed = 5f;  // 회전 속도
     public float positionCheckInterval = 0.1f;  // 위치를 확인하는 간격
-    public float positionThreshold = 0.01f;  // 위치 변화가 얼마나 작아야 방향을 바꿀지 결정하는 임계값
+    public float positionThreshold = 0.005f;  // 위치 변화가 얼마나 작아야 방향을 바꿀지 결정하는 임계값
     public float detectionRange = 10f;  // Raycast로 탐지할 범위
     public int numberOfRays = 8;  // 발사할 레이의 개수
 
