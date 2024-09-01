@@ -48,16 +48,13 @@ public class MiniPangBoardManager : MonoBehaviour
     {
         this.boardSize = boardSize;
 
-        // 보드를 초기화합니다.
         board = new MiniPangTile[boardSize, boardSize];
 
-        // 기존 보드의 모든 타일 제거
         foreach (Transform child in boardParent.transform)
         {
             Destroy(child.gameObject);
         }
 
-        // 보드 크기에 맞게 새로운 타일 배치
         for (int x = 0; x < boardSize; x++)
         {
             for (int y = 0; y < boardSize; y++)
@@ -70,19 +67,15 @@ public class MiniPangBoardManager : MonoBehaviour
 
     private void PlaceRandomTile(int x, int y, int blockTypeCount)
     {
-        // 블록 타입을 무작위로 선택
         int randomIndex = Random.Range(0, blockTypeCount);
         GameObject tilePrefab = objectPrefabs[randomIndex];
 
-        // 타일 생성 및 보드에 배치
         GameObject tileObject = Instantiate(tilePrefab, boardParent.transform);
         tileObject.transform.localPosition = new Vector3(x, y, 0);
 
-        // 타일 초기화
         MiniPangTile tile = tileObject.GetComponent<MiniPangTile>();
         tile.Initialize(x, y, this);
 
-        // 보드 배열에 타일 저장
         board[x, y] = tile;
     }
 
