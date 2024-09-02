@@ -18,6 +18,10 @@ MiniPang 프로젝트는 Unity를 사용하여 만든 간단한 퍼즐 게임입
 
 Raycasting과 Random Movement 기법을 사용한 프로젝트입니다. Raycast를 통해 오브젝트와 상호작용하거나, 오브젝트가 랜덤하게 움직이는 방법을 구현합니다.
 
+### [4. NaverMapAPIProject](https://github.com/ralskwo/UnityGithub/tree/main/NaverMapAPIProject)
+
+이 프로젝트는 Unity에서 네이버 지도 API를 활용하여 지도 시각화 및 지오코딩 서비스를 제공하는 애플리케이션입니다. 주소 검색, 지도 표시, 확대/축소 기능을 포함하고 있으며, 네이버 클라우드 플랫폼에서 제공하는 API를 사용하여 구현되었습니다.
+
 ## 사용 방법
 
 1. 각 프로젝트 폴더로 이동하여 README 파일을 참고하세요.
