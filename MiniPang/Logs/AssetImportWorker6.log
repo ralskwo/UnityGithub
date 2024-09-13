@@ -1,0 +1,2732 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.40f1 (cbdda657d2f0) revision 13360550'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ko' Physical Memory: 32531 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.40f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/ralskwo/Desktop/Study/Unity/UnityGithub/MiniPang
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+60610
+Successfully changed project path to: C:/Users/ralskwo/Desktop/Study/Unity/UnityGithub/MiniPang
+C:/Users/ralskwo/Desktop/Study/Unity/UnityGithub/MiniPang
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [41120]  Target information:
+
+Player connection [41120]  * "[IP] 123.215.203.28 [Port] 0 [Flags] 2 [Guid] 419692242 [EditorId] 419692242 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9V2I703) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [41120] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [41120] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+Refreshing native plugins compatible for Editor in 11.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.40f1 (cbdda657d2f0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ralskwo/Desktop/Study/Unity/UnityGithub/MiniPang/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4080 SUPER (ID=0x2702)
+    Vendor:   NVIDIA
+    VRAM:     16047 MB
+    Driver:   32.0.15.6109
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.015550 seconds.
+- Loaded All Assemblies, in  0.313 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 441 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.647 seconds
+Domain Reload Profiling: 957ms
+	BeginReloadAssembly (118ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (109ms)
+		LoadAssemblies (113ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (107ms)
+			TypeCache.Refresh (105ms)
+				TypeCache.ScanAssembly (95ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (647ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (619ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (516ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (64ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.467 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.405 seconds
+Domain Reload Profiling: 866ms
+	BeginReloadAssembly (102ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (300ms)
+		LoadAssemblies (262ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (103ms)
+			TypeCache.Refresh (91ms)
+				TypeCache.ScanAssembly (80ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (406ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (314ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (210ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 6.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (54.6 KB). Loaded Objects now: 3597.
+Memory consumption went from 134.4 MB to 134.4 MB.
+Total: 1.675800 ms (FindLiveObjects: 0.135400 ms CreateObjectMapping: 0.037500 ms MarkObjects: 1.433100 ms  DeleteObjects: 0.068900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MiniPangBoardInitializer.cs: 65c354b00b184091d88701ee118b5239 -> 752013e1d037003a34653b76abe1a7ee
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileAnimator.cs: 0fbd365c61ad10bd4a91e13ca95733b4 -> 5d5448ff0273ff8b5a59d8a41792d0f1
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileInputHandler.cs: e8dfa7d034835c2a6e367a3044606e31 -> 21d522cd19b0f24b69181e38617254f4
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileMover.cs: 6735b0e897597cf005478f39572de56a -> 0279341fd27f437813706b990b48418e
+  custom:scripting/monoscript/fileName/MiniPangTile.cs: d3543fa8080eeb5fa1a5208346286141 -> 671572d2a71da728225017797b33a58b
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileChecker.cs: 69beba7b4a2db96642d8f7af1f01c537 -> 6d9ad599dee425a582a235fd7716f269
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MiniPangMatchChecker.cs: 406ed0c0da50d9fe63e38b542c60b69c -> c4d524ae0cb9b6129fc3f0b8a8596b20
+  custom:scripting/monoscript/fileName/MiniPangMatchUtility.cs: 45f9efd6629d2bb798db20f38755bd2b -> c1328b7f70265c7a783a91e8289b3d73
+  custom:scripting/monoscript/fileName/MiniPangBoardUpdater.cs: 81b98ac617cfecc4f64fef9c2b94c2fd -> bfa01e847f163241385b44902df5bb5a
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardShuffler.cs: 198fb84ce3867a6df767fa0d46a4d4b7 -> 0166704e721e129c925e040c013808a4
+  custom:scripting/monoscript/fileName/MiniPangTileSwapper.cs: 35837ad2bbf55a03b1f70ed3cc355f75 -> 345415dedd499c92d67d5b12434f7587
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/MiniPangTilePlacer.cs: 62fb1f9aa0e098426e63a794b2fcf83c -> fcbc313f4edc9bfdc0c460ef3c45f548
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardManager.cs: 881658c8ba5538e1f37b1b306d49e10a -> 06711afc23d72767d95994c3c713b811
+  custom:scripting/monoscript/fileName/MiniPangScoreManager.cs: cf9e17ed0f1fde0387365e3559207157 -> b1fe1de6cb0ee5623c8a33dc8bbd0941
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileDestroyer.cs: 6f1b42ff45e1a68234182c3d1ffbcbe5 -> 9c5842f9d2faa03c3f509d2347f03b77
+  custom:scripting/monoscript/fileName/MiniPangScoreUpdater.cs: e8502ee5137682a9f24eef9425c7f881 -> 28eed88101c8c542b110c0c1b49120b2
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.363 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.740 seconds
+Domain Reload Profiling: 1099ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (193ms)
+		LoadAssemblies (241ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (740ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (298ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (199ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 4.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3601.
+Memory consumption went from 129.0 MB to 129.0 MB.
+Total: 1.770800 ms (FindLiveObjects: 0.124200 ms CreateObjectMapping: 0.038700 ms MarkObjects: 1.581500 ms  DeleteObjects: 0.025600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MiniPangBoardInitializer.cs: 65c354b00b184091d88701ee118b5239 -> 752013e1d037003a34653b76abe1a7ee
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileAnimator.cs: 0fbd365c61ad10bd4a91e13ca95733b4 -> 5d5448ff0273ff8b5a59d8a41792d0f1
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileInputHandler.cs: e8dfa7d034835c2a6e367a3044606e31 -> 21d522cd19b0f24b69181e38617254f4
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileMover.cs: 6735b0e897597cf005478f39572de56a -> 0279341fd27f437813706b990b48418e
+  custom:scripting/monoscript/fileName/MiniPangTile.cs: d3543fa8080eeb5fa1a5208346286141 -> 671572d2a71da728225017797b33a58b
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileChecker.cs: 69beba7b4a2db96642d8f7af1f01c537 -> 6d9ad599dee425a582a235fd7716f269
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MiniPangMatchChecker.cs: 406ed0c0da50d9fe63e38b542c60b69c -> c4d524ae0cb9b6129fc3f0b8a8596b20
+  custom:scripting/monoscript/fileName/MiniPangMatchUtility.cs: 45f9efd6629d2bb798db20f38755bd2b -> c1328b7f70265c7a783a91e8289b3d73
+  custom:scripting/monoscript/fileName/MiniPangBoardUpdater.cs: 81b98ac617cfecc4f64fef9c2b94c2fd -> bfa01e847f163241385b44902df5bb5a
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MiniRunGameManager.cs: d006fa27b6711619930234e07e33474c -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardShuffler.cs: 198fb84ce3867a6df767fa0d46a4d4b7 -> 0166704e721e129c925e040c013808a4
+  custom:scripting/monoscript/fileName/MiniPangTileSwapper.cs: 35837ad2bbf55a03b1f70ed3cc355f75 -> 345415dedd499c92d67d5b12434f7587
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/MiniPangTilePlacer.cs: 62fb1f9aa0e098426e63a794b2fcf83c -> fcbc313f4edc9bfdc0c460ef3c45f548
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardManager.cs: 881658c8ba5538e1f37b1b306d49e10a -> 06711afc23d72767d95994c3c713b811
+  custom:scripting/monoscript/fileName/MiniPangScoreManager.cs: cf9e17ed0f1fde0387365e3559207157 -> b1fe1de6cb0ee5623c8a33dc8bbd0941
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileDestroyer.cs: 6f1b42ff45e1a68234182c3d1ffbcbe5 -> 9c5842f9d2faa03c3f509d2347f03b77
+  custom:scripting/monoscript/fileName/MiniPangScoreUpdater.cs: e8502ee5137682a9f24eef9425c7f881 -> 28eed88101c8c542b110c0c1b49120b2
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: c2907abfd54060489f009c77a9abe8bf -> 713ec4366c0aa1658606e055631a0da5
+========================================================================
+Received Import Request.
+  Time since last request: 136155.404966 seconds.
+  path: Assets/MiniRun/Scripts/MiniRunGameManager.cs
+  artifactKey: Guid(4fa9452b472d9214d8387eda287b0ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniRun/Scripts/MiniRunGameManager.cs using Guid(4fa9452b472d9214d8387eda287b0ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '6219ce2116a4df2194532c9ec39adc3d') in 0.002187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.353 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.773 seconds
+Domain Reload Profiling: 1123ms
+	BeginReloadAssembly (110ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (190ms)
+		LoadAssemblies (240ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (774ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (294ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (192ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 3.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3604.
+Memory consumption went from 128.8 MB to 128.8 MB.
+Total: 1.495500 ms (FindLiveObjects: 0.124400 ms CreateObjectMapping: 0.036800 ms MarkObjects: 1.309200 ms  DeleteObjects: 0.024200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MiniPangBoardInitializer.cs: 65c354b00b184091d88701ee118b5239 -> 752013e1d037003a34653b76abe1a7ee
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileAnimator.cs: 0fbd365c61ad10bd4a91e13ca95733b4 -> 5d5448ff0273ff8b5a59d8a41792d0f1
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileInputHandler.cs: e8dfa7d034835c2a6e367a3044606e31 -> 21d522cd19b0f24b69181e38617254f4
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileMover.cs: 6735b0e897597cf005478f39572de56a -> 0279341fd27f437813706b990b48418e
+  custom:scripting/monoscript/fileName/MiniPangTile.cs: d3543fa8080eeb5fa1a5208346286141 -> 671572d2a71da728225017797b33a58b
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileChecker.cs: 69beba7b4a2db96642d8f7af1f01c537 -> 6d9ad599dee425a582a235fd7716f269
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MiniPangMatchChecker.cs: 406ed0c0da50d9fe63e38b542c60b69c -> c4d524ae0cb9b6129fc3f0b8a8596b20
+  custom:scripting/monoscript/fileName/MiniPangMatchUtility.cs: 45f9efd6629d2bb798db20f38755bd2b -> c1328b7f70265c7a783a91e8289b3d73
+  custom:scripting/monoscript/fileName/MiniPangBoardUpdater.cs: 81b98ac617cfecc4f64fef9c2b94c2fd -> bfa01e847f163241385b44902df5bb5a
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MiniRunGameManager.cs: d006fa27b6711619930234e07e33474c -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardShuffler.cs: 198fb84ce3867a6df767fa0d46a4d4b7 -> 0166704e721e129c925e040c013808a4
+  custom:scripting/monoscript/fileName/MiniPangTileSwapper.cs: 35837ad2bbf55a03b1f70ed3cc355f75 -> 345415dedd499c92d67d5b12434f7587
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/MiniPangTilePlacer.cs: 62fb1f9aa0e098426e63a794b2fcf83c -> fcbc313f4edc9bfdc0c460ef3c45f548
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardManager.cs: 881658c8ba5538e1f37b1b306d49e10a -> 06711afc23d72767d95994c3c713b811
+  custom:scripting/monoscript/fileName/MiniPangScoreManager.cs: cf9e17ed0f1fde0387365e3559207157 -> b1fe1de6cb0ee5623c8a33dc8bbd0941
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileDestroyer.cs: 6f1b42ff45e1a68234182c3d1ffbcbe5 -> 9c5842f9d2faa03c3f509d2347f03b77
+  custom:scripting/monoscript/fileName/MiniPangScoreUpdater.cs: e8502ee5137682a9f24eef9425c7f881 -> 28eed88101c8c542b110c0c1b49120b2
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: c2907abfd54060489f009c77a9abe8bf -> 713ec4366c0aa1658606e055631a0da5
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.438 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.738 seconds
+Domain Reload Profiling: 1172ms
+	BeginReloadAssembly (194ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (186ms)
+		LoadAssemblies (294ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (739ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (290ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (192ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 5.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3105 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3608.
+Memory consumption went from 129.1 MB to 129.0 MB.
+Total: 1.584900 ms (FindLiveObjects: 0.144900 ms CreateObjectMapping: 0.039500 ms MarkObjects: 1.372900 ms  DeleteObjects: 0.027000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MiniPangBoardInitializer.cs: 65c354b00b184091d88701ee118b5239 -> 752013e1d037003a34653b76abe1a7ee
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileAnimator.cs: 0fbd365c61ad10bd4a91e13ca95733b4 -> 5d5448ff0273ff8b5a59d8a41792d0f1
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileInputHandler.cs: e8dfa7d034835c2a6e367a3044606e31 -> 21d522cd19b0f24b69181e38617254f4
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileMover.cs: 6735b0e897597cf005478f39572de56a -> 0279341fd27f437813706b990b48418e
+  custom:scripting/monoscript/fileName/MiniPangTile.cs: d3543fa8080eeb5fa1a5208346286141 -> 671572d2a71da728225017797b33a58b
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileChecker.cs: 69beba7b4a2db96642d8f7af1f01c537 -> 6d9ad599dee425a582a235fd7716f269
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MiniPangMatchChecker.cs: 406ed0c0da50d9fe63e38b542c60b69c -> c4d524ae0cb9b6129fc3f0b8a8596b20
+  custom:scripting/monoscript/fileName/MiniPangMatchUtility.cs: 45f9efd6629d2bb798db20f38755bd2b -> c1328b7f70265c7a783a91e8289b3d73
+  custom:scripting/monoscript/fileName/MiniPangBoardUpdater.cs: 81b98ac617cfecc4f64fef9c2b94c2fd -> bfa01e847f163241385b44902df5bb5a
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MiniRunGameManager.cs: d006fa27b6711619930234e07e33474c -> 
+  custom:scripting/monoscript/fileName/MiniRunPlayerController.cs: 30c429214c327fb68155ee4a3dfa60a2 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardShuffler.cs: 198fb84ce3867a6df767fa0d46a4d4b7 -> 0166704e721e129c925e040c013808a4
+  custom:scripting/monoscript/fileName/MiniPangTileSwapper.cs: 35837ad2bbf55a03b1f70ed3cc355f75 -> 345415dedd499c92d67d5b12434f7587
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/MiniPangTilePlacer.cs: 62fb1f9aa0e098426e63a794b2fcf83c -> fcbc313f4edc9bfdc0c460ef3c45f548
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardManager.cs: 881658c8ba5538e1f37b1b306d49e10a -> 06711afc23d72767d95994c3c713b811
+  custom:scripting/monoscript/fileName/MiniPangScoreManager.cs: cf9e17ed0f1fde0387365e3559207157 -> b1fe1de6cb0ee5623c8a33dc8bbd0941
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileDestroyer.cs: 6f1b42ff45e1a68234182c3d1ffbcbe5 -> 9c5842f9d2faa03c3f509d2347f03b77
+  custom:scripting/monoscript/fileName/MiniPangScoreUpdater.cs: e8502ee5137682a9f24eef9425c7f881 -> 28eed88101c8c542b110c0c1b49120b2
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: c63a7ad91d517c3d0145353167078210 -> 713ec4366c0aa1658606e055631a0da5
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.349 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.731 seconds
+Domain Reload Profiling: 1077ms
+	BeginReloadAssembly (106ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (193ms)
+		LoadAssemblies (240ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (731ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (292ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (187ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 4.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3105 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3611.
+Memory consumption went from 129.1 MB to 129.1 MB.
+Total: 1.525300 ms (FindLiveObjects: 0.130700 ms CreateObjectMapping: 0.034200 ms MarkObjects: 1.334100 ms  DeleteObjects: 0.025400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MiniPangBoardInitializer.cs: 65c354b00b184091d88701ee118b5239 -> 752013e1d037003a34653b76abe1a7ee
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileAnimator.cs: 0fbd365c61ad10bd4a91e13ca95733b4 -> 5d5448ff0273ff8b5a59d8a41792d0f1
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileInputHandler.cs: e8dfa7d034835c2a6e367a3044606e31 -> 21d522cd19b0f24b69181e38617254f4
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileMover.cs: 6735b0e897597cf005478f39572de56a -> 0279341fd27f437813706b990b48418e
+  custom:scripting/monoscript/fileName/MiniPangTile.cs: d3543fa8080eeb5fa1a5208346286141 -> 671572d2a71da728225017797b33a58b
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileChecker.cs: 69beba7b4a2db96642d8f7af1f01c537 -> 6d9ad599dee425a582a235fd7716f269
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MiniPangMatchChecker.cs: 406ed0c0da50d9fe63e38b542c60b69c -> c4d524ae0cb9b6129fc3f0b8a8596b20
+  custom:scripting/monoscript/fileName/MiniPangMatchUtility.cs: 45f9efd6629d2bb798db20f38755bd2b -> c1328b7f70265c7a783a91e8289b3d73
+  custom:scripting/monoscript/fileName/MiniPangBoardUpdater.cs: 81b98ac617cfecc4f64fef9c2b94c2fd -> bfa01e847f163241385b44902df5bb5a
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MiniRunGameManager.cs: d006fa27b6711619930234e07e33474c -> 
+  custom:scripting/monoscript/fileName/MiniRunPlayerController.cs: 30c429214c327fb68155ee4a3dfa60a2 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardShuffler.cs: 198fb84ce3867a6df767fa0d46a4d4b7 -> 0166704e721e129c925e040c013808a4
+  custom:scripting/monoscript/fileName/MiniPangTileSwapper.cs: 35837ad2bbf55a03b1f70ed3cc355f75 -> 345415dedd499c92d67d5b12434f7587
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/MiniPangTilePlacer.cs: 62fb1f9aa0e098426e63a794b2fcf83c -> fcbc313f4edc9bfdc0c460ef3c45f548
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardManager.cs: 881658c8ba5538e1f37b1b306d49e10a -> 06711afc23d72767d95994c3c713b811
+  custom:scripting/monoscript/fileName/MiniPangScoreManager.cs: cf9e17ed0f1fde0387365e3559207157 -> b1fe1de6cb0ee5623c8a33dc8bbd0941
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileDestroyer.cs: 6f1b42ff45e1a68234182c3d1ffbcbe5 -> 9c5842f9d2faa03c3f509d2347f03b77
+  custom:scripting/monoscript/fileName/MiniPangScoreUpdater.cs: e8502ee5137682a9f24eef9425c7f881 -> 28eed88101c8c542b110c0c1b49120b2
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: c63a7ad91d517c3d0145353167078210 -> 713ec4366c0aa1658606e055631a0da5
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.359 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.769 seconds
+Domain Reload Profiling: 1123ms
+	BeginReloadAssembly (114ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (189ms)
+		LoadAssemblies (240ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (769ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (295ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (188ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 4.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3106 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3615.
+Memory consumption went from 129.1 MB to 129.1 MB.
+Total: 2.161000 ms (FindLiveObjects: 0.134000 ms CreateObjectMapping: 0.037800 ms MarkObjects: 1.962200 ms  DeleteObjects: 0.026300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MiniPangBoardInitializer.cs: 65c354b00b184091d88701ee118b5239 -> 752013e1d037003a34653b76abe1a7ee
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileAnimator.cs: 0fbd365c61ad10bd4a91e13ca95733b4 -> 5d5448ff0273ff8b5a59d8a41792d0f1
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileInputHandler.cs: e8dfa7d034835c2a6e367a3044606e31 -> 21d522cd19b0f24b69181e38617254f4
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileMover.cs: 6735b0e897597cf005478f39572de56a -> 0279341fd27f437813706b990b48418e
+  custom:scripting/monoscript/fileName/MiniPangTile.cs: d3543fa8080eeb5fa1a5208346286141 -> 671572d2a71da728225017797b33a58b
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MiniRunInputHandler.cs: a7331a444a505c909cfc09ebcb3f8a45 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileChecker.cs: 69beba7b4a2db96642d8f7af1f01c537 -> 6d9ad599dee425a582a235fd7716f269
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MiniPangMatchChecker.cs: 406ed0c0da50d9fe63e38b542c60b69c -> c4d524ae0cb9b6129fc3f0b8a8596b20
+  custom:scripting/monoscript/fileName/MiniPangMatchUtility.cs: 45f9efd6629d2bb798db20f38755bd2b -> c1328b7f70265c7a783a91e8289b3d73
+  custom:scripting/monoscript/fileName/MiniPangBoardUpdater.cs: 81b98ac617cfecc4f64fef9c2b94c2fd -> bfa01e847f163241385b44902df5bb5a
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MiniRunGameManager.cs: d006fa27b6711619930234e07e33474c -> 
+  custom:scripting/monoscript/fileName/MiniRunPlayerController.cs: 30c429214c327fb68155ee4a3dfa60a2 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardShuffler.cs: 198fb84ce3867a6df767fa0d46a4d4b7 -> 0166704e721e129c925e040c013808a4
+  custom:scripting/monoscript/fileName/MiniPangTileSwapper.cs: 35837ad2bbf55a03b1f70ed3cc355f75 -> 345415dedd499c92d67d5b12434f7587
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/MiniPangTilePlacer.cs: 62fb1f9aa0e098426e63a794b2fcf83c -> fcbc313f4edc9bfdc0c460ef3c45f548
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardManager.cs: 881658c8ba5538e1f37b1b306d49e10a -> 06711afc23d72767d95994c3c713b811
+  custom:scripting/monoscript/fileName/MiniPangScoreManager.cs: cf9e17ed0f1fde0387365e3559207157 -> b1fe1de6cb0ee5623c8a33dc8bbd0941
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileDestroyer.cs: 6f1b42ff45e1a68234182c3d1ffbcbe5 -> 9c5842f9d2faa03c3f509d2347f03b77
+  custom:scripting/monoscript/fileName/MiniPangScoreUpdater.cs: e8502ee5137682a9f24eef9425c7f881 -> 28eed88101c8c542b110c0c1b49120b2
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: e5acee3a41cd07578550e2e586b6dc9f -> 713ec4366c0aa1658606e055631a0da5
+========================================================================
+Received Import Request.
+  Time since last request: 68.773789 seconds.
+  path: Assets/MiniRun/Scripts/MiniRunInputHandler.cs
+  artifactKey: Guid(00ea3100ddb0bfe48abcde305deaffc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniRun/Scripts/MiniRunInputHandler.cs using Guid(00ea3100ddb0bfe48abcde305deaffc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'c4346c79255602419447e097a1c63658') in 0.003206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.350 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.768 seconds
+Domain Reload Profiling: 1115ms
+	BeginReloadAssembly (112ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (186ms)
+		LoadAssemblies (238ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (768ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (307ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (197ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 4.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3106 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3619.
+Memory consumption went from 128.9 MB to 128.8 MB.
+Total: 1.695500 ms (FindLiveObjects: 0.128100 ms CreateObjectMapping: 0.032400 ms MarkObjects: 1.505800 ms  DeleteObjects: 0.028200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MiniPangBoardInitializer.cs: 65c354b00b184091d88701ee118b5239 -> 752013e1d037003a34653b76abe1a7ee
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileAnimator.cs: 0fbd365c61ad10bd4a91e13ca95733b4 -> 5d5448ff0273ff8b5a59d8a41792d0f1
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileInputHandler.cs: e8dfa7d034835c2a6e367a3044606e31 -> 21d522cd19b0f24b69181e38617254f4
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileMover.cs: 6735b0e897597cf005478f39572de56a -> 0279341fd27f437813706b990b48418e
+  custom:scripting/monoscript/fileName/MiniPangTile.cs: d3543fa8080eeb5fa1a5208346286141 -> 671572d2a71da728225017797b33a58b
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MiniRunInputHandler.cs: a7331a444a505c909cfc09ebcb3f8a45 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileChecker.cs: 69beba7b4a2db96642d8f7af1f01c537 -> 6d9ad599dee425a582a235fd7716f269
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MiniPangMatchChecker.cs: 406ed0c0da50d9fe63e38b542c60b69c -> c4d524ae0cb9b6129fc3f0b8a8596b20
+  custom:scripting/monoscript/fileName/MiniPangMatchUtility.cs: 45f9efd6629d2bb798db20f38755bd2b -> c1328b7f70265c7a783a91e8289b3d73
+  custom:scripting/monoscript/fileName/MiniPangBoardUpdater.cs: 81b98ac617cfecc4f64fef9c2b94c2fd -> bfa01e847f163241385b44902df5bb5a
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MiniRunGameManager.cs: d006fa27b6711619930234e07e33474c -> 
+  custom:scripting/monoscript/fileName/MiniRunPlayerController.cs: 30c429214c327fb68155ee4a3dfa60a2 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardShuffler.cs: 198fb84ce3867a6df767fa0d46a4d4b7 -> 0166704e721e129c925e040c013808a4
+  custom:scripting/monoscript/fileName/MiniPangTileSwapper.cs: 35837ad2bbf55a03b1f70ed3cc355f75 -> 345415dedd499c92d67d5b12434f7587
+  custom:scripting/monoscript/fileName/MiniRunObstacleSpawner.cs: a7bae19db0084ff718e98ebd1cf4dde0 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/MiniPangTilePlacer.cs: 62fb1f9aa0e098426e63a794b2fcf83c -> fcbc313f4edc9bfdc0c460ef3c45f548
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardManager.cs: 881658c8ba5538e1f37b1b306d49e10a -> 06711afc23d72767d95994c3c713b811
+  custom:scripting/monoscript/fileName/MiniPangScoreManager.cs: cf9e17ed0f1fde0387365e3559207157 -> b1fe1de6cb0ee5623c8a33dc8bbd0941
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileDestroyer.cs: 6f1b42ff45e1a68234182c3d1ffbcbe5 -> 9c5842f9d2faa03c3f509d2347f03b77
+  custom:scripting/monoscript/fileName/MiniPangScoreUpdater.cs: e8502ee5137682a9f24eef9425c7f881 -> 28eed88101c8c542b110c0c1b49120b2
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 6087aa45fc03ea7cf33e491153ed0a85 -> 713ec4366c0aa1658606e055631a0da5
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.351 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.726 seconds
+Domain Reload Profiling: 1073ms
+	BeginReloadAssembly (115ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (181ms)
+		LoadAssemblies (235ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (726ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (289ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (186ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 4.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3107 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3622.
+Memory consumption went from 129.1 MB to 129.1 MB.
+Total: 1.499200 ms (FindLiveObjects: 0.126600 ms CreateObjectMapping: 0.032400 ms MarkObjects: 1.313900 ms  DeleteObjects: 0.025000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MiniPangBoardInitializer.cs: 65c354b00b184091d88701ee118b5239 -> 752013e1d037003a34653b76abe1a7ee
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileAnimator.cs: 0fbd365c61ad10bd4a91e13ca95733b4 -> 5d5448ff0273ff8b5a59d8a41792d0f1
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileInputHandler.cs: e8dfa7d034835c2a6e367a3044606e31 -> 21d522cd19b0f24b69181e38617254f4
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileMover.cs: 6735b0e897597cf005478f39572de56a -> 0279341fd27f437813706b990b48418e
+  custom:scripting/monoscript/fileName/MiniPangTile.cs: d3543fa8080eeb5fa1a5208346286141 -> 671572d2a71da728225017797b33a58b
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MiniRunInputHandler.cs: a7331a444a505c909cfc09ebcb3f8a45 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileChecker.cs: 69beba7b4a2db96642d8f7af1f01c537 -> 6d9ad599dee425a582a235fd7716f269
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MiniPangMatchChecker.cs: 406ed0c0da50d9fe63e38b542c60b69c -> c4d524ae0cb9b6129fc3f0b8a8596b20
+  custom:scripting/monoscript/fileName/MiniPangMatchUtility.cs: 45f9efd6629d2bb798db20f38755bd2b -> c1328b7f70265c7a783a91e8289b3d73
+  custom:scripting/monoscript/fileName/MiniPangBoardUpdater.cs: 81b98ac617cfecc4f64fef9c2b94c2fd -> bfa01e847f163241385b44902df5bb5a
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MiniRunGameManager.cs: d006fa27b6711619930234e07e33474c -> 
+  custom:scripting/monoscript/fileName/MiniRunPlayerController.cs: 30c429214c327fb68155ee4a3dfa60a2 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardShuffler.cs: 198fb84ce3867a6df767fa0d46a4d4b7 -> 0166704e721e129c925e040c013808a4
+  custom:scripting/monoscript/fileName/MiniPangTileSwapper.cs: 35837ad2bbf55a03b1f70ed3cc355f75 -> 345415dedd499c92d67d5b12434f7587
+  custom:scripting/monoscript/fileName/MiniRunObstacleSpawner.cs: a7bae19db0084ff718e98ebd1cf4dde0 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/MiniPangTilePlacer.cs: 62fb1f9aa0e098426e63a794b2fcf83c -> fcbc313f4edc9bfdc0c460ef3c45f548
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardManager.cs: 881658c8ba5538e1f37b1b306d49e10a -> 06711afc23d72767d95994c3c713b811
+  custom:scripting/monoscript/fileName/MiniPangScoreManager.cs: cf9e17ed0f1fde0387365e3559207157 -> b1fe1de6cb0ee5623c8a33dc8bbd0941
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileDestroyer.cs: 6f1b42ff45e1a68234182c3d1ffbcbe5 -> 9c5842f9d2faa03c3f509d2347f03b77
+  custom:scripting/monoscript/fileName/MiniPangScoreUpdater.cs: e8502ee5137682a9f24eef9425c7f881 -> 28eed88101c8c542b110c0c1b49120b2
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 6087aa45fc03ea7cf33e491153ed0a85 -> 713ec4366c0aa1658606e055631a0da5
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.339 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.744 seconds
+Domain Reload Profiling: 1079ms
+	BeginReloadAssembly (110ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (175ms)
+		LoadAssemblies (228ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (745ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (292ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (190ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 3.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3108 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3626.
+Memory consumption went from 129.1 MB to 129.1 MB.
+Total: 1.637500 ms (FindLiveObjects: 0.134600 ms CreateObjectMapping: 0.038900 ms MarkObjects: 1.438500 ms  DeleteObjects: 0.024800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MiniPangBoardInitializer.cs: 65c354b00b184091d88701ee118b5239 -> 752013e1d037003a34653b76abe1a7ee
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileAnimator.cs: 0fbd365c61ad10bd4a91e13ca95733b4 -> 5d5448ff0273ff8b5a59d8a41792d0f1
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileInputHandler.cs: e8dfa7d034835c2a6e367a3044606e31 -> 21d522cd19b0f24b69181e38617254f4
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileMover.cs: 6735b0e897597cf005478f39572de56a -> 0279341fd27f437813706b990b48418e
+  custom:scripting/monoscript/fileName/MiniPangTile.cs: d3543fa8080eeb5fa1a5208346286141 -> 671572d2a71da728225017797b33a58b
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MiniRunInputHandler.cs: a7331a444a505c909cfc09ebcb3f8a45 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileChecker.cs: 69beba7b4a2db96642d8f7af1f01c537 -> 6d9ad599dee425a582a235fd7716f269
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MiniPangMatchChecker.cs: 406ed0c0da50d9fe63e38b542c60b69c -> c4d524ae0cb9b6129fc3f0b8a8596b20
+  custom:scripting/monoscript/fileName/MiniPangMatchUtility.cs: 45f9efd6629d2bb798db20f38755bd2b -> c1328b7f70265c7a783a91e8289b3d73
+  custom:scripting/monoscript/fileName/MiniRunScoreManager.cs: 91c42c68ef46f211d89469a4534020e7 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardUpdater.cs: 81b98ac617cfecc4f64fef9c2b94c2fd -> bfa01e847f163241385b44902df5bb5a
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MiniRunGameManager.cs: d006fa27b6711619930234e07e33474c -> 
+  custom:scripting/monoscript/fileName/MiniRunPlayerController.cs: 30c429214c327fb68155ee4a3dfa60a2 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardShuffler.cs: 198fb84ce3867a6df767fa0d46a4d4b7 -> 0166704e721e129c925e040c013808a4
+  custom:scripting/monoscript/fileName/MiniPangTileSwapper.cs: 35837ad2bbf55a03b1f70ed3cc355f75 -> 345415dedd499c92d67d5b12434f7587
+  custom:scripting/monoscript/fileName/MiniRunObstacleSpawner.cs: a7bae19db0084ff718e98ebd1cf4dde0 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/MiniPangTilePlacer.cs: 62fb1f9aa0e098426e63a794b2fcf83c -> fcbc313f4edc9bfdc0c460ef3c45f548
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardManager.cs: 881658c8ba5538e1f37b1b306d49e10a -> 06711afc23d72767d95994c3c713b811
+  custom:scripting/monoscript/fileName/MiniPangScoreManager.cs: cf9e17ed0f1fde0387365e3559207157 -> b1fe1de6cb0ee5623c8a33dc8bbd0941
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileDestroyer.cs: 6f1b42ff45e1a68234182c3d1ffbcbe5 -> 9c5842f9d2faa03c3f509d2347f03b77
+  custom:scripting/monoscript/fileName/MiniPangScoreUpdater.cs: e8502ee5137682a9f24eef9425c7f881 -> 28eed88101c8c542b110c0c1b49120b2
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 053ddfd99f1a233c8606f831ecb86062 -> 713ec4366c0aa1658606e055631a0da5
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.350 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.736 seconds
+Domain Reload Profiling: 1081ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (190ms)
+		LoadAssemblies (239ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (736ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (294ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (191ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 4.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3108 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3629.
+Memory consumption went from 129.1 MB to 129.1 MB.
+Total: 1.532000 ms (FindLiveObjects: 0.126000 ms CreateObjectMapping: 0.033000 ms MarkObjects: 1.348300 ms  DeleteObjects: 0.024100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MiniPangBoardInitializer.cs: 65c354b00b184091d88701ee118b5239 -> 752013e1d037003a34653b76abe1a7ee
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileAnimator.cs: 0fbd365c61ad10bd4a91e13ca95733b4 -> 5d5448ff0273ff8b5a59d8a41792d0f1
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileInputHandler.cs: e8dfa7d034835c2a6e367a3044606e31 -> 21d522cd19b0f24b69181e38617254f4
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileMover.cs: 6735b0e897597cf005478f39572de56a -> 0279341fd27f437813706b990b48418e
+  custom:scripting/monoscript/fileName/MiniPangTile.cs: d3543fa8080eeb5fa1a5208346286141 -> 671572d2a71da728225017797b33a58b
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MiniRunInputHandler.cs: a7331a444a505c909cfc09ebcb3f8a45 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileChecker.cs: 69beba7b4a2db96642d8f7af1f01c537 -> 6d9ad599dee425a582a235fd7716f269
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MiniPangMatchChecker.cs: 406ed0c0da50d9fe63e38b542c60b69c -> c4d524ae0cb9b6129fc3f0b8a8596b20
+  custom:scripting/monoscript/fileName/MiniPangMatchUtility.cs: 45f9efd6629d2bb798db20f38755bd2b -> c1328b7f70265c7a783a91e8289b3d73
+  custom:scripting/monoscript/fileName/MiniRunScoreManager.cs: 91c42c68ef46f211d89469a4534020e7 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardUpdater.cs: 81b98ac617cfecc4f64fef9c2b94c2fd -> bfa01e847f163241385b44902df5bb5a
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MiniRunGameManager.cs: d006fa27b6711619930234e07e33474c -> 
+  custom:scripting/monoscript/fileName/MiniRunPlayerController.cs: 30c429214c327fb68155ee4a3dfa60a2 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardShuffler.cs: 198fb84ce3867a6df767fa0d46a4d4b7 -> 0166704e721e129c925e040c013808a4
+  custom:scripting/monoscript/fileName/MiniPangTileSwapper.cs: 35837ad2bbf55a03b1f70ed3cc355f75 -> 345415dedd499c92d67d5b12434f7587
+  custom:scripting/monoscript/fileName/MiniRunObstacleSpawner.cs: a7bae19db0084ff718e98ebd1cf4dde0 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/MiniPangTilePlacer.cs: 62fb1f9aa0e098426e63a794b2fcf83c -> fcbc313f4edc9bfdc0c460ef3c45f548
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardManager.cs: 881658c8ba5538e1f37b1b306d49e10a -> 06711afc23d72767d95994c3c713b811
+  custom:scripting/monoscript/fileName/MiniPangScoreManager.cs: cf9e17ed0f1fde0387365e3559207157 -> b1fe1de6cb0ee5623c8a33dc8bbd0941
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileDestroyer.cs: 6f1b42ff45e1a68234182c3d1ffbcbe5 -> 9c5842f9d2faa03c3f509d2347f03b77
+  custom:scripting/monoscript/fileName/MiniPangScoreUpdater.cs: e8502ee5137682a9f24eef9425c7f881 -> 28eed88101c8c542b110c0c1b49120b2
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 053ddfd99f1a233c8606f831ecb86062 -> 713ec4366c0aa1658606e055631a0da5
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.440 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.770 seconds
+Domain Reload Profiling: 1207ms
+	BeginReloadAssembly (109ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (278ms)
+		LoadAssemblies (327ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (771ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (296ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (193ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 4.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3109 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3633.
+Memory consumption went from 129.2 MB to 129.1 MB.
+Total: 1.563900 ms (FindLiveObjects: 0.129100 ms CreateObjectMapping: 0.034600 ms MarkObjects: 1.369500 ms  DeleteObjects: 0.030000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MiniRunUIManager.cs: e1ca3eb99cd48ad45d7a1c005bc8d87b -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardInitializer.cs: 65c354b00b184091d88701ee118b5239 -> 752013e1d037003a34653b76abe1a7ee
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileAnimator.cs: 0fbd365c61ad10bd4a91e13ca95733b4 -> 5d5448ff0273ff8b5a59d8a41792d0f1
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileInputHandler.cs: e8dfa7d034835c2a6e367a3044606e31 -> 21d522cd19b0f24b69181e38617254f4
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileMover.cs: 6735b0e897597cf005478f39572de56a -> 0279341fd27f437813706b990b48418e
+  custom:scripting/monoscript/fileName/MiniPangTile.cs: d3543fa8080eeb5fa1a5208346286141 -> 671572d2a71da728225017797b33a58b
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MiniRunInputHandler.cs: a7331a444a505c909cfc09ebcb3f8a45 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileChecker.cs: 69beba7b4a2db96642d8f7af1f01c537 -> 6d9ad599dee425a582a235fd7716f269
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MiniPangMatchChecker.cs: 406ed0c0da50d9fe63e38b542c60b69c -> c4d524ae0cb9b6129fc3f0b8a8596b20
+  custom:scripting/monoscript/fileName/MiniPangMatchUtility.cs: 45f9efd6629d2bb798db20f38755bd2b -> c1328b7f70265c7a783a91e8289b3d73
+  custom:scripting/monoscript/fileName/MiniRunScoreManager.cs: 91c42c68ef46f211d89469a4534020e7 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardUpdater.cs: 81b98ac617cfecc4f64fef9c2b94c2fd -> bfa01e847f163241385b44902df5bb5a
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MiniRunGameManager.cs: d006fa27b6711619930234e07e33474c -> 
+  custom:scripting/monoscript/fileName/MiniRunPlayerController.cs: 30c429214c327fb68155ee4a3dfa60a2 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardShuffler.cs: 198fb84ce3867a6df767fa0d46a4d4b7 -> 0166704e721e129c925e040c013808a4
+  custom:scripting/monoscript/fileName/MiniPangTileSwapper.cs: 35837ad2bbf55a03b1f70ed3cc355f75 -> 345415dedd499c92d67d5b12434f7587
+  custom:scripting/monoscript/fileName/MiniRunObstacleSpawner.cs: a7bae19db0084ff718e98ebd1cf4dde0 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/MiniPangTilePlacer.cs: 62fb1f9aa0e098426e63a794b2fcf83c -> fcbc313f4edc9bfdc0c460ef3c45f548
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardManager.cs: 881658c8ba5538e1f37b1b306d49e10a -> 06711afc23d72767d95994c3c713b811
+  custom:scripting/monoscript/fileName/MiniPangScoreManager.cs: cf9e17ed0f1fde0387365e3559207157 -> b1fe1de6cb0ee5623c8a33dc8bbd0941
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileDestroyer.cs: 6f1b42ff45e1a68234182c3d1ffbcbe5 -> 9c5842f9d2faa03c3f509d2347f03b77
+  custom:scripting/monoscript/fileName/MiniPangScoreUpdater.cs: e8502ee5137682a9f24eef9425c7f881 -> 28eed88101c8c542b110c0c1b49120b2
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: f5f1d2bd0cc70c3df817fc94517e7ae6 -> 713ec4366c0aa1658606e055631a0da5
+========================================================================
+Received Import Request.
+  Time since last request: 1660.910187 seconds.
+  path: Assets/MiniRun/Scripts/MiniRunUIManager.cs
+  artifactKey: Guid(59e3ebe3c7f84ad4884963bf6759da37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniRun/Scripts/MiniRunUIManager.cs using Guid(59e3ebe3c7f84ad4884963bf6759da37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'f4a7d2fa788126f2cf946b4565a7e937') in 0.004535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.356 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.735 seconds
+Domain Reload Profiling: 1088ms
+	BeginReloadAssembly (112ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (188ms)
+		LoadAssemblies (238ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (735ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (295ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (195ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 3.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3108 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3636.
+Memory consumption went from 128.9 MB to 128.9 MB.
+Total: 1.660000 ms (FindLiveObjects: 0.181400 ms CreateObjectMapping: 0.038300 ms MarkObjects: 1.415200 ms  DeleteObjects: 0.023900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MiniRunUIManager.cs: e1ca3eb99cd48ad45d7a1c005bc8d87b -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardInitializer.cs: 65c354b00b184091d88701ee118b5239 -> 752013e1d037003a34653b76abe1a7ee
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileAnimator.cs: 0fbd365c61ad10bd4a91e13ca95733b4 -> 5d5448ff0273ff8b5a59d8a41792d0f1
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileInputHandler.cs: e8dfa7d034835c2a6e367a3044606e31 -> 21d522cd19b0f24b69181e38617254f4
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileMover.cs: 6735b0e897597cf005478f39572de56a -> 0279341fd27f437813706b990b48418e
+  custom:scripting/monoscript/fileName/MiniPangTile.cs: d3543fa8080eeb5fa1a5208346286141 -> 671572d2a71da728225017797b33a58b
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MiniRunInputHandler.cs: a7331a444a505c909cfc09ebcb3f8a45 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileChecker.cs: 69beba7b4a2db96642d8f7af1f01c537 -> 6d9ad599dee425a582a235fd7716f269
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MiniPangMatchChecker.cs: 406ed0c0da50d9fe63e38b542c60b69c -> c4d524ae0cb9b6129fc3f0b8a8596b20
+  custom:scripting/monoscript/fileName/MiniPangMatchUtility.cs: 45f9efd6629d2bb798db20f38755bd2b -> c1328b7f70265c7a783a91e8289b3d73
+  custom:scripting/monoscript/fileName/MiniRunScoreManager.cs: 91c42c68ef46f211d89469a4534020e7 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardUpdater.cs: 81b98ac617cfecc4f64fef9c2b94c2fd -> bfa01e847f163241385b44902df5bb5a
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MiniRunGameManager.cs: d006fa27b6711619930234e07e33474c -> 
+  custom:scripting/monoscript/fileName/MiniRunPlayerController.cs: 30c429214c327fb68155ee4a3dfa60a2 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardShuffler.cs: 198fb84ce3867a6df767fa0d46a4d4b7 -> 0166704e721e129c925e040c013808a4
+  custom:scripting/monoscript/fileName/MiniPangTileSwapper.cs: 35837ad2bbf55a03b1f70ed3cc355f75 -> 345415dedd499c92d67d5b12434f7587
+  custom:scripting/monoscript/fileName/MiniRunObstacleSpawner.cs: a7bae19db0084ff718e98ebd1cf4dde0 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/MiniPangTilePlacer.cs: 62fb1f9aa0e098426e63a794b2fcf83c -> fcbc313f4edc9bfdc0c460ef3c45f548
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardManager.cs: 881658c8ba5538e1f37b1b306d49e10a -> 06711afc23d72767d95994c3c713b811
+  custom:scripting/monoscript/fileName/MiniPangScoreManager.cs: cf9e17ed0f1fde0387365e3559207157 -> b1fe1de6cb0ee5623c8a33dc8bbd0941
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileDestroyer.cs: 6f1b42ff45e1a68234182c3d1ffbcbe5 -> 9c5842f9d2faa03c3f509d2347f03b77
+  custom:scripting/monoscript/fileName/MiniPangScoreUpdater.cs: e8502ee5137682a9f24eef9425c7f881 -> 28eed88101c8c542b110c0c1b49120b2
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: f5f1d2bd0cc70c3df817fc94517e7ae6 -> 713ec4366c0aa1658606e055631a0da5
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.352 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.756 seconds
+Domain Reload Profiling: 1104ms
+	BeginReloadAssembly (111ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (189ms)
+		LoadAssemblies (238ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (757ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (294ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (190ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 4.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3109 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3639.
+Memory consumption went from 129.2 MB to 129.1 MB.
+Total: 1.509100 ms (FindLiveObjects: 0.122300 ms CreateObjectMapping: 0.034200 ms MarkObjects: 1.327900 ms  DeleteObjects: 0.024100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MiniRunUIManager.cs: e1ca3eb99cd48ad45d7a1c005bc8d87b -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardInitializer.cs: 65c354b00b184091d88701ee118b5239 -> 752013e1d037003a34653b76abe1a7ee
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileAnimator.cs: 0fbd365c61ad10bd4a91e13ca95733b4 -> 5d5448ff0273ff8b5a59d8a41792d0f1
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileInputHandler.cs: e8dfa7d034835c2a6e367a3044606e31 -> 21d522cd19b0f24b69181e38617254f4
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileMover.cs: 6735b0e897597cf005478f39572de56a -> 0279341fd27f437813706b990b48418e
+  custom:scripting/monoscript/fileName/MiniPangTile.cs: d3543fa8080eeb5fa1a5208346286141 -> 671572d2a71da728225017797b33a58b
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MiniRunInputHandler.cs: a7331a444a505c909cfc09ebcb3f8a45 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileChecker.cs: 69beba7b4a2db96642d8f7af1f01c537 -> 6d9ad599dee425a582a235fd7716f269
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MiniPangMatchChecker.cs: 406ed0c0da50d9fe63e38b542c60b69c -> c4d524ae0cb9b6129fc3f0b8a8596b20
+  custom:scripting/monoscript/fileName/MiniPangMatchUtility.cs: 45f9efd6629d2bb798db20f38755bd2b -> c1328b7f70265c7a783a91e8289b3d73
+  custom:scripting/monoscript/fileName/MiniRunScoreManager.cs: 91c42c68ef46f211d89469a4534020e7 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardUpdater.cs: 81b98ac617cfecc4f64fef9c2b94c2fd -> bfa01e847f163241385b44902df5bb5a
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MiniRunGameManager.cs: d006fa27b6711619930234e07e33474c -> 
+  custom:scripting/monoscript/fileName/MiniRunPlayerController.cs: 30c429214c327fb68155ee4a3dfa60a2 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardShuffler.cs: 198fb84ce3867a6df767fa0d46a4d4b7 -> 0166704e721e129c925e040c013808a4
+  custom:scripting/monoscript/fileName/MiniPangTileSwapper.cs: 35837ad2bbf55a03b1f70ed3cc355f75 -> 345415dedd499c92d67d5b12434f7587
+  custom:scripting/monoscript/fileName/MiniRunObstacleSpawner.cs: a7bae19db0084ff718e98ebd1cf4dde0 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/MiniPangTilePlacer.cs: 62fb1f9aa0e098426e63a794b2fcf83c -> fcbc313f4edc9bfdc0c460ef3c45f548
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardManager.cs: 881658c8ba5538e1f37b1b306d49e10a -> 06711afc23d72767d95994c3c713b811
+  custom:scripting/monoscript/fileName/MiniPangScoreManager.cs: cf9e17ed0f1fde0387365e3559207157 -> b1fe1de6cb0ee5623c8a33dc8bbd0941
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileDestroyer.cs: 6f1b42ff45e1a68234182c3d1ffbcbe5 -> 9c5842f9d2faa03c3f509d2347f03b77
+  custom:scripting/monoscript/fileName/MiniPangScoreUpdater.cs: e8502ee5137682a9f24eef9425c7f881 -> 28eed88101c8c542b110c0c1b49120b2
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: f5f1d2bd0cc70c3df817fc94517e7ae6 -> 713ec4366c0aa1658606e055631a0da5
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.434 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.762 seconds
+Domain Reload Profiling: 1193ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (264ms)
+		LoadAssemblies (320ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (763ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (295ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (193ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 4.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3643.
+Memory consumption went from 129.2 MB to 129.2 MB.
+Total: 1.560200 ms (FindLiveObjects: 0.135300 ms CreateObjectMapping: 0.035100 ms MarkObjects: 1.364400 ms  DeleteObjects: 0.024400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MiniRunUIManager.cs: e1ca3eb99cd48ad45d7a1c005bc8d87b -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardInitializer.cs: 65c354b00b184091d88701ee118b5239 -> 752013e1d037003a34653b76abe1a7ee
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileAnimator.cs: 0fbd365c61ad10bd4a91e13ca95733b4 -> 5d5448ff0273ff8b5a59d8a41792d0f1
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileInputHandler.cs: e8dfa7d034835c2a6e367a3044606e31 -> 21d522cd19b0f24b69181e38617254f4
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/MiniRunCameraController.cs: 83ca5f11c7d6ab63237de31e12a5a55e -> 
+  custom:scripting/monoscript/fileName/MiniPangTileMover.cs: 6735b0e897597cf005478f39572de56a -> 0279341fd27f437813706b990b48418e
+  custom:scripting/monoscript/fileName/MiniPangTile.cs: d3543fa8080eeb5fa1a5208346286141 -> 671572d2a71da728225017797b33a58b
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MiniRunInputHandler.cs: a7331a444a505c909cfc09ebcb3f8a45 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileChecker.cs: 69beba7b4a2db96642d8f7af1f01c537 -> 6d9ad599dee425a582a235fd7716f269
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MiniPangMatchChecker.cs: 406ed0c0da50d9fe63e38b542c60b69c -> c4d524ae0cb9b6129fc3f0b8a8596b20
+  custom:scripting/monoscript/fileName/MiniPangMatchUtility.cs: 45f9efd6629d2bb798db20f38755bd2b -> c1328b7f70265c7a783a91e8289b3d73
+  custom:scripting/monoscript/fileName/MiniRunScoreManager.cs: 91c42c68ef46f211d89469a4534020e7 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardUpdater.cs: 81b98ac617cfecc4f64fef9c2b94c2fd -> bfa01e847f163241385b44902df5bb5a
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MiniRunGameManager.cs: d006fa27b6711619930234e07e33474c -> 
+  custom:scripting/monoscript/fileName/MiniRunPlayerController.cs: 30c429214c327fb68155ee4a3dfa60a2 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardShuffler.cs: 198fb84ce3867a6df767fa0d46a4d4b7 -> 0166704e721e129c925e040c013808a4
+  custom:scripting/monoscript/fileName/MiniPangTileSwapper.cs: 35837ad2bbf55a03b1f70ed3cc355f75 -> 345415dedd499c92d67d5b12434f7587
+  custom:scripting/monoscript/fileName/MiniRunObstacleSpawner.cs: a7bae19db0084ff718e98ebd1cf4dde0 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/MiniPangTilePlacer.cs: 62fb1f9aa0e098426e63a794b2fcf83c -> fcbc313f4edc9bfdc0c460ef3c45f548
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardManager.cs: 881658c8ba5538e1f37b1b306d49e10a -> 06711afc23d72767d95994c3c713b811
+  custom:scripting/monoscript/fileName/MiniPangScoreManager.cs: cf9e17ed0f1fde0387365e3559207157 -> b1fe1de6cb0ee5623c8a33dc8bbd0941
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileDestroyer.cs: 6f1b42ff45e1a68234182c3d1ffbcbe5 -> 9c5842f9d2faa03c3f509d2347f03b77
+  custom:scripting/monoscript/fileName/MiniPangScoreUpdater.cs: e8502ee5137682a9f24eef9425c7f881 -> 28eed88101c8c542b110c0c1b49120b2
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: e8ad76850d743be7f010ebbd1b29c868 -> 713ec4366c0aa1658606e055631a0da5
+========================================================================
+Received Import Request.
+  Time since last request: 638.156595 seconds.
+  path: Assets/MiniRun/Scripts/MiniRunCameraController.cs
+  artifactKey: Guid(52b172ac3f6325446833fb17f31db3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniRun/Scripts/MiniRunCameraController.cs using Guid(52b172ac3f6325446833fb17f31db3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '2a5c437ef46d64af19d7d975daf11e9a') in 0.003006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.351 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.744 seconds
+Domain Reload Profiling: 1092ms
+	BeginReloadAssembly (110ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (189ms)
+		LoadAssemblies (238ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (745ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (290ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (187ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 5.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3109 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3646.
+Memory consumption went from 128.9 MB to 128.9 MB.
+Total: 1.546700 ms (FindLiveObjects: 0.134600 ms CreateObjectMapping: 0.035800 ms MarkObjects: 1.351200 ms  DeleteObjects: 0.024400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MiniRunUIManager.cs: e1ca3eb99cd48ad45d7a1c005bc8d87b -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardInitializer.cs: 65c354b00b184091d88701ee118b5239 -> 752013e1d037003a34653b76abe1a7ee
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileAnimator.cs: 0fbd365c61ad10bd4a91e13ca95733b4 -> 5d5448ff0273ff8b5a59d8a41792d0f1
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileInputHandler.cs: e8dfa7d034835c2a6e367a3044606e31 -> 21d522cd19b0f24b69181e38617254f4
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/MiniRunCameraController.cs: 83ca5f11c7d6ab63237de31e12a5a55e -> 
+  custom:scripting/monoscript/fileName/MiniPangTileMover.cs: 6735b0e897597cf005478f39572de56a -> 0279341fd27f437813706b990b48418e
+  custom:scripting/monoscript/fileName/MiniPangTile.cs: d3543fa8080eeb5fa1a5208346286141 -> 671572d2a71da728225017797b33a58b
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MiniRunInputHandler.cs: a7331a444a505c909cfc09ebcb3f8a45 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileChecker.cs: 69beba7b4a2db96642d8f7af1f01c537 -> 6d9ad599dee425a582a235fd7716f269
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MiniPangMatchChecker.cs: 406ed0c0da50d9fe63e38b542c60b69c -> c4d524ae0cb9b6129fc3f0b8a8596b20
+  custom:scripting/monoscript/fileName/MiniPangMatchUtility.cs: 45f9efd6629d2bb798db20f38755bd2b -> c1328b7f70265c7a783a91e8289b3d73
+  custom:scripting/monoscript/fileName/MiniRunScoreManager.cs: 91c42c68ef46f211d89469a4534020e7 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardUpdater.cs: 81b98ac617cfecc4f64fef9c2b94c2fd -> bfa01e847f163241385b44902df5bb5a
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MiniRunGameManager.cs: d006fa27b6711619930234e07e33474c -> 
+  custom:scripting/monoscript/fileName/MiniRunPlayerController.cs: 30c429214c327fb68155ee4a3dfa60a2 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardShuffler.cs: 198fb84ce3867a6df767fa0d46a4d4b7 -> 0166704e721e129c925e040c013808a4
+  custom:scripting/monoscript/fileName/MiniPangTileSwapper.cs: 35837ad2bbf55a03b1f70ed3cc355f75 -> 345415dedd499c92d67d5b12434f7587
+  custom:scripting/monoscript/fileName/MiniRunObstacleSpawner.cs: a7bae19db0084ff718e98ebd1cf4dde0 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/MiniPangTilePlacer.cs: 62fb1f9aa0e098426e63a794b2fcf83c -> fcbc313f4edc9bfdc0c460ef3c45f548
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardManager.cs: 881658c8ba5538e1f37b1b306d49e10a -> 06711afc23d72767d95994c3c713b811
+  custom:scripting/monoscript/fileName/MiniPangScoreManager.cs: cf9e17ed0f1fde0387365e3559207157 -> b1fe1de6cb0ee5623c8a33dc8bbd0941
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileDestroyer.cs: 6f1b42ff45e1a68234182c3d1ffbcbe5 -> 9c5842f9d2faa03c3f509d2347f03b77
+  custom:scripting/monoscript/fileName/MiniPangScoreUpdater.cs: e8502ee5137682a9f24eef9425c7f881 -> 28eed88101c8c542b110c0c1b49120b2
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: e8ad76850d743be7f010ebbd1b29c868 -> 713ec4366c0aa1658606e055631a0da5
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.354 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.727 seconds
+Domain Reload Profiling: 1077ms
+	BeginReloadAssembly (112ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (189ms)
+		LoadAssemblies (239ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (727ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (298ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (194ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 4.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3649.
+Memory consumption went from 129.2 MB to 129.2 MB.
+Total: 1.553900 ms (FindLiveObjects: 0.129600 ms CreateObjectMapping: 0.036400 ms MarkObjects: 1.362500 ms  DeleteObjects: 0.024700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MiniRunUIManager.cs: e1ca3eb99cd48ad45d7a1c005bc8d87b -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardInitializer.cs: 65c354b00b184091d88701ee118b5239 -> 752013e1d037003a34653b76abe1a7ee
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileAnimator.cs: 0fbd365c61ad10bd4a91e13ca95733b4 -> 5d5448ff0273ff8b5a59d8a41792d0f1
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileInputHandler.cs: e8dfa7d034835c2a6e367a3044606e31 -> 21d522cd19b0f24b69181e38617254f4
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/MiniRunCameraController.cs: 83ca5f11c7d6ab63237de31e12a5a55e -> 
+  custom:scripting/monoscript/fileName/MiniPangTileMover.cs: 6735b0e897597cf005478f39572de56a -> 0279341fd27f437813706b990b48418e
+  custom:scripting/monoscript/fileName/MiniPangTile.cs: d3543fa8080eeb5fa1a5208346286141 -> 671572d2a71da728225017797b33a58b
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MiniRunInputHandler.cs: a7331a444a505c909cfc09ebcb3f8a45 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileChecker.cs: 69beba7b4a2db96642d8f7af1f01c537 -> 6d9ad599dee425a582a235fd7716f269
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MiniPangMatchChecker.cs: 406ed0c0da50d9fe63e38b542c60b69c -> c4d524ae0cb9b6129fc3f0b8a8596b20
+  custom:scripting/monoscript/fileName/MiniPangMatchUtility.cs: 45f9efd6629d2bb798db20f38755bd2b -> c1328b7f70265c7a783a91e8289b3d73
+  custom:scripting/monoscript/fileName/MiniRunScoreManager.cs: 91c42c68ef46f211d89469a4534020e7 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardUpdater.cs: 81b98ac617cfecc4f64fef9c2b94c2fd -> bfa01e847f163241385b44902df5bb5a
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MiniRunGameManager.cs: d006fa27b6711619930234e07e33474c -> 
+  custom:scripting/monoscript/fileName/MiniRunPlayerController.cs: 30c429214c327fb68155ee4a3dfa60a2 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardShuffler.cs: 198fb84ce3867a6df767fa0d46a4d4b7 -> 0166704e721e129c925e040c013808a4
+  custom:scripting/monoscript/fileName/MiniPangTileSwapper.cs: 35837ad2bbf55a03b1f70ed3cc355f75 -> 345415dedd499c92d67d5b12434f7587
+  custom:scripting/monoscript/fileName/MiniRunObstacleSpawner.cs: a7bae19db0084ff718e98ebd1cf4dde0 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/MiniPangTilePlacer.cs: 62fb1f9aa0e098426e63a794b2fcf83c -> fcbc313f4edc9bfdc0c460ef3c45f548
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardManager.cs: 881658c8ba5538e1f37b1b306d49e10a -> 06711afc23d72767d95994c3c713b811
+  custom:scripting/monoscript/fileName/MiniPangScoreManager.cs: cf9e17ed0f1fde0387365e3559207157 -> b1fe1de6cb0ee5623c8a33dc8bbd0941
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileDestroyer.cs: 6f1b42ff45e1a68234182c3d1ffbcbe5 -> 9c5842f9d2faa03c3f509d2347f03b77
+  custom:scripting/monoscript/fileName/MiniPangScoreUpdater.cs: e8502ee5137682a9f24eef9425c7f881 -> 28eed88101c8c542b110c0c1b49120b2
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: e8ad76850d743be7f010ebbd1b29c868 -> 713ec4366c0aa1658606e055631a0da5
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.382 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.905 seconds
+Domain Reload Profiling: 1283ms
+	BeginReloadAssembly (121ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (207ms)
+		LoadAssemblies (263ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (906ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (400ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (274ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 5.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3133 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3675.
+Memory consumption went from 129.6 MB to 129.6 MB.
+Total: 1.664300 ms (FindLiveObjects: 0.141500 ms CreateObjectMapping: 0.037400 ms MarkObjects: 1.453100 ms  DeleteObjects: 0.030900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MiniRunUIManager.cs: e1ca3eb99cd48ad45d7a1c005bc8d87b -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardInitializer.cs: 65c354b00b184091d88701ee118b5239 -> 752013e1d037003a34653b76abe1a7ee
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/Pixelize.cs: fe18d69905ec098db33e494873877e81 -> 
+  custom:scripting/monoscript/fileName/Smear.cs: a91ddc98111e6029b3f515dc68a77cb1 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileAnimator.cs: 0fbd365c61ad10bd4a91e13ca95733b4 -> 5d5448ff0273ff8b5a59d8a41792d0f1
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/SpriteMaskController.cs: 7b2aa75bfa08c2c2c75b42f43b09aba4 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileInputHandler.cs: e8dfa7d034835c2a6e367a3044606e31 -> 21d522cd19b0f24b69181e38617254f4
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ForceShieldShootBall.cs: 75c9ab765ab399bd8a37cd88f585bdfd -> 
+  custom:scripting/monoscript/fileName/ASPStartup.cs: 93af8ecb1a60de2d847a6e86c3e56e75 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ASPAbout.cs: 7ac90f92e4f8e0bd6d1d1eaac726450e -> 
+  custom:scripting/monoscript/fileName/MiniRunCameraController.cs: 83ca5f11c7d6ab63237de31e12a5a55e -> 
+  custom:scripting/monoscript/fileName/PostProcessExample.cs: a24a9527886732c781537496a2a58d29 -> 
+  custom:scripting/monoscript/fileName/highlightAnimated.cs: a6c4bca67b2ff04de8082bb16012d455 -> 
+  custom:scripting/monoscript/fileName/ForceShieldDestroyBall.cs: 9fc81255632866449976e5efbcd054ce -> 
+  custom:scripting/monoscript/fileName/CameraDepthActivation.cs: 72cf1d798c2519d7a54f2e65d038a164 -> 
+  custom:scripting/monoscript/fileName/SimpleGPUInstancingExample.cs: ee17c98245ef8f1ef2917cf0c4e101be -> 
+  custom:scripting/monoscript/fileName/MiniPangTileMover.cs: 6735b0e897597cf005478f39572de56a -> 0279341fd27f437813706b990b48418e
+  custom:scripting/monoscript/fileName/MiniPangTile.cs: d3543fa8080eeb5fa1a5208346286141 -> 671572d2a71da728225017797b33a58b
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MiniRunInputHandler.cs: a7331a444a505c909cfc09ebcb3f8a45 -> 
+  custom:scripting/monoscript/fileName/SimpleMoveExample.cs: 9f764409fa557d85bc0ab47aa3f1eaee -> 
+  custom:scripting/monoscript/fileName/MiniPangTileChecker.cs: 69beba7b4a2db96642d8f7af1f01c537 -> 6d9ad599dee425a582a235fd7716f269
+  custom:scripting/monoscript/fileName/ASPPackageManagerHelper.cs: 51c93367b0c24e45a4c15f7ea467b51c -> 
+  custom:scripting/monoscript/fileName/ASPPreferences.cs: b7a79579c2393d6fbfe46f7869e133b4 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ASPReadme.cs: daafaf33aadc655c0711f46804df96af -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MiniPangMatchChecker.cs: 406ed0c0da50d9fe63e38b542c60b69c -> c4d524ae0cb9b6129fc3f0b8a8596b20
+  custom:scripting/monoscript/fileName/MiniPangMatchUtility.cs: 45f9efd6629d2bb798db20f38755bd2b -> c1328b7f70265c7a783a91e8289b3d73
+  custom:scripting/monoscript/fileName/MiniRunScoreManager.cs: 91c42c68ef46f211d89469a4534020e7 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardUpdater.cs: 81b98ac617cfecc4f64fef9c2b94c2fd -> bfa01e847f163241385b44902df5bb5a
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MiniRunGameManager.cs: d006fa27b6711619930234e07e33474c -> 
+  custom:scripting/monoscript/fileName/CustomRTRainUpdate.cs: 3be77c543059885c85b9a09f39ff8dd4 -> 
+  custom:scripting/monoscript/fileName/OmniDecalMovement.cs: bcff513510bf3e59e444bed8d2b47b67 -> 
+  custom:scripting/monoscript/fileName/MiniRunPlayerController.cs: 30c429214c327fb68155ee4a3dfa60a2 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardShuffler.cs: 198fb84ce3867a6df767fa0d46a4d4b7 -> 0166704e721e129c925e040c013808a4
+  custom:scripting/monoscript/fileName/VersionInfo.cs: eecf4f65def1c8397bc5f97a7ec79ca8 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileSwapper.cs: 35837ad2bbf55a03b1f70ed3cc355f75 -> 345415dedd499c92d67d5b12434f7587
+  custom:scripting/monoscript/fileName/MiniRunObstacleSpawner.cs: a7bae19db0084ff718e98ebd1cf4dde0 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/VolumetricSphere.cs: 3ce364a7df123b44ad0c9d41dbde50c0 -> 
+  custom:scripting/monoscript/fileName/MiniPangTilePlacer.cs: 62fb1f9aa0e098426e63a794b2fcf83c -> fcbc313f4edc9bfdc0c460ef3c45f548
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ASPReadmeEditor.cs: 4a91a7cd3aa0d2ac5b84dac3253593f4 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardManager.cs: 881658c8ba5538e1f37b1b306d49e10a -> 06711afc23d72767d95994c3c713b811
+  custom:scripting/monoscript/fileName/MiniPangScoreManager.cs: cf9e17ed0f1fde0387365e3559207157 -> b1fe1de6cb0ee5623c8a33dc8bbd0941
+  custom:scripting/monoscript/fileName/ForceShieldImpactDetection.cs: b1e17d3ad4b89375ddc9378b35f2f00b -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 7ef6a1d067e8a4745f1cde00ca9c4506 -> 2cee812bb162aa112c4ca4b4ce12d6a1
+  custom:scripting/monoscript/fileName/MiniPangTileDestroyer.cs: 6f1b42ff45e1a68234182c3d1ffbcbe5 -> 9c5842f9d2faa03c3f509d2347f03b77
+  custom:scripting/monoscript/fileName/MiniPangScoreUpdater.cs: e8502ee5137682a9f24eef9425c7f881 -> 28eed88101c8c542b110c0c1b49120b2
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 7a66fd56dc2f048e37bc61ac038f8085 -> 713ec4366c0aa1658606e055631a0da5
+  custom:scripting/monoscript/fileName/PlaneClip.cs: 6c6365620cb4fe55c7c447054299716d -> 
+  custom:scripting/monoscript/fileName/ASPStartScreen.cs: 78a8abd5f1647ba6cd676a26786b20e6 -> 
+========================================================================
+Received Prepare
+Assembly reference Assets/AmplifyShaderPack/Samples BIRP/Samples/PostProcess Mosaic Effect/AssemblyReference.asmref has no target assembly definition
+Caller must complete domain reload
+Assembly reference Assets/AmplifyShaderPack/Samples BIRP/Samples/PostProcess Mosaic Effect/AssemblyReference.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.541 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Assembly reference Assets/AmplifyShaderPack/Samples BIRP/Samples/PostProcess Mosaic Effect/AssemblyReference.asmref has no target assembly definition
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.752 seconds
+Domain Reload Profiling: 2287ms
+	BeginReloadAssembly (127ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (310ms)
+		LoadAssemblies (369ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1752ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (833ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (286ms)
+			ProcessInitializeOnLoadAttributes (450ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (26ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Shader 'AmplifyShaderPack/Terrain/Snow': dependency 'AddPassShader' shader 'Hidden/AmplifyShaderPack/Terrain/Snow AddPass' not found
+Shader 'AmplifyShaderPack/Terrain/Snow': dependency 'AddPassShader' shader 'Hidden/AmplifyShaderPack/Terrain/Snow AddPass' not found
+Shader 'AmplifyShaderPack/Terrain/Simple': dependency 'BaseMapShader' shader 'Hidden/AmplifyShaderPack/Terrain/Simple BasePass' not found
+Shader 'AmplifyShaderPack/Terrain/Simple': dependency 'BaseMapShader' shader 'Hidden/AmplifyShaderPack/Terrain/Simple BasePass' not found
+Refreshing native plugins compatible for Editor in 6.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3244 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 124 unused Assets / (83.6 MB). Loaded Objects now: 3689.
+Memory consumption went from 246.6 MB to 163.0 MB.
+Total: 8.491700 ms (FindLiveObjects: 0.161700 ms CreateObjectMapping: 0.039100 ms MarkObjects: 1.336400 ms  DeleteObjects: 6.953700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MiniRunUIManager.cs: e1ca3eb99cd48ad45d7a1c005bc8d87b -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardInitializer.cs: 65c354b00b184091d88701ee118b5239 -> 752013e1d037003a34653b76abe1a7ee
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/Pixelize.cs: fe18d69905ec098db33e494873877e81 -> 
+  custom:scripting/monoscript/fileName/Smear.cs: a91ddc98111e6029b3f515dc68a77cb1 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileAnimator.cs: 0fbd365c61ad10bd4a91e13ca95733b4 -> 5d5448ff0273ff8b5a59d8a41792d0f1
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/SpriteMaskController.cs: 7b2aa75bfa08c2c2c75b42f43b09aba4 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileInputHandler.cs: e8dfa7d034835c2a6e367a3044606e31 -> 21d522cd19b0f24b69181e38617254f4
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ForceShieldShootBall.cs: 75c9ab765ab399bd8a37cd88f585bdfd -> 
+  custom:scripting/monoscript/fileName/ASPStartup.cs: 93af8ecb1a60de2d847a6e86c3e56e75 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ASPAbout.cs: 7ac90f92e4f8e0bd6d1d1eaac726450e -> 
+  custom:scripting/monoscript/fileName/MiniRunCameraController.cs: 83ca5f11c7d6ab63237de31e12a5a55e -> 
+  custom:scripting/monoscript/fileName/PostProcessExample.cs: a24a9527886732c781537496a2a58d29 -> 
+  custom:scripting/monoscript/fileName/highlightAnimated.cs: a6c4bca67b2ff04de8082bb16012d455 -> 
+  custom:scripting/monoscript/fileName/ForceShieldDestroyBall.cs: 9fc81255632866449976e5efbcd054ce -> 
+  custom:scripting/monoscript/fileName/CameraDepthActivation.cs: 72cf1d798c2519d7a54f2e65d038a164 -> 
+  custom:scripting/monoscript/fileName/SimpleGPUInstancingExample.cs: ee17c98245ef8f1ef2917cf0c4e101be -> 
+  custom:scripting/monoscript/fileName/MiniPangTileMover.cs: 6735b0e897597cf005478f39572de56a -> 0279341fd27f437813706b990b48418e
+  custom:scripting/monoscript/fileName/MiniPangTile.cs: d3543fa8080eeb5fa1a5208346286141 -> 671572d2a71da728225017797b33a58b
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MiniRunInputHandler.cs: a7331a444a505c909cfc09ebcb3f8a45 -> 
+  custom:scripting/monoscript/fileName/SimpleMoveExample.cs: 9f764409fa557d85bc0ab47aa3f1eaee -> 
+  custom:scripting/monoscript/fileName/MiniPangTileChecker.cs: 69beba7b4a2db96642d8f7af1f01c537 -> 6d9ad599dee425a582a235fd7716f269
+  custom:scripting/monoscript/fileName/ASPPackageManagerHelper.cs: 51c93367b0c24e45a4c15f7ea467b51c -> 
+  custom:scripting/monoscript/fileName/ASPPreferences.cs: b7a79579c2393d6fbfe46f7869e133b4 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ASPReadme.cs: daafaf33aadc655c0711f46804df96af -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MiniPangMatchChecker.cs: 406ed0c0da50d9fe63e38b542c60b69c -> c4d524ae0cb9b6129fc3f0b8a8596b20
+  custom:scripting/monoscript/fileName/MiniPangMatchUtility.cs: 45f9efd6629d2bb798db20f38755bd2b -> c1328b7f70265c7a783a91e8289b3d73
+  custom:scripting/monoscript/fileName/MiniRunScoreManager.cs: 91c42c68ef46f211d89469a4534020e7 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardUpdater.cs: 81b98ac617cfecc4f64fef9c2b94c2fd -> bfa01e847f163241385b44902df5bb5a
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MiniRunGameManager.cs: d006fa27b6711619930234e07e33474c -> 
+  custom:scripting/monoscript/fileName/CustomRTRainUpdate.cs: 3be77c543059885c85b9a09f39ff8dd4 -> 
+  custom:scripting/monoscript/fileName/OmniDecalMovement.cs: bcff513510bf3e59e444bed8d2b47b67 -> 
+  custom:scripting/monoscript/fileName/MiniRunPlayerController.cs: 30c429214c327fb68155ee4a3dfa60a2 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardShuffler.cs: 198fb84ce3867a6df767fa0d46a4d4b7 -> 0166704e721e129c925e040c013808a4
+  custom:scripting/monoscript/fileName/VersionInfo.cs: eecf4f65def1c8397bc5f97a7ec79ca8 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileSwapper.cs: 35837ad2bbf55a03b1f70ed3cc355f75 -> 345415dedd499c92d67d5b12434f7587
+  custom:scripting/monoscript/fileName/MiniRunObstacleSpawner.cs: a7bae19db0084ff718e98ebd1cf4dde0 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/VolumetricSphere.cs: 3ce364a7df123b44ad0c9d41dbde50c0 -> 
+  custom:scripting/monoscript/fileName/MiniPangTilePlacer.cs: 62fb1f9aa0e098426e63a794b2fcf83c -> fcbc313f4edc9bfdc0c460ef3c45f548
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ASPReadmeEditor.cs: 4a91a7cd3aa0d2ac5b84dac3253593f4 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardManager.cs: 881658c8ba5538e1f37b1b306d49e10a -> 06711afc23d72767d95994c3c713b811
+  custom:scripting/monoscript/fileName/MiniPangScoreManager.cs: cf9e17ed0f1fde0387365e3559207157 -> b1fe1de6cb0ee5623c8a33dc8bbd0941
+  custom:scripting/monoscript/fileName/ForceShieldImpactDetection.cs: b1e17d3ad4b89375ddc9378b35f2f00b -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 7ef6a1d067e8a4745f1cde00ca9c4506 -> 2cee812bb162aa112c4ca4b4ce12d6a1
+  custom:scripting/monoscript/fileName/MiniPangTileDestroyer.cs: 6f1b42ff45e1a68234182c3d1ffbcbe5 -> 9c5842f9d2faa03c3f509d2347f03b77
+  custom:scripting/monoscript/fileName/MiniPangScoreUpdater.cs: e8502ee5137682a9f24eef9425c7f881 -> 28eed88101c8c542b110c0c1b49120b2
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 7a66fd56dc2f048e37bc61ac038f8085 -> 713ec4366c0aa1658606e055631a0da5
+  custom:scripting/monoscript/fileName/PlaneClip.cs: 6c6365620cb4fe55c7c447054299716d -> 
+  custom:scripting/monoscript/fileName/ASPStartScreen.cs: 78a8abd5f1647ba6cd676a26786b20e6 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1271.894241 seconds.
+  path: Assets/AmplifyShaderPack/Assets/Texture/Misc/Checkers.png
+  artifactKey: Guid(aab8de1052c54173b3d61e7f8b05aedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderPack/Assets/Texture/Misc/Checkers.png using Guid(aab8de1052c54173b3d61e7f8b05aedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '5d625f4400e84b0fe75c597708b59a1e') in 0.042967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 53.164060 seconds.
+  path: Assets/AmplifyShaderPack/Assets/Texture/Fire Emission.jpg
+  artifactKey: Guid(cd37cd05e6714e409187f7beed787a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderPack/Assets/Texture/Fire Emission.jpg using Guid(cd37cd05e6714e409187f7beed787a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '3469d8d2e97e26d59e7ba0497391b9ea') in 0.009895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.012346 seconds.
+  path: Assets/AmplifyShaderPack/Assets/Texture/Wood_D.tif
+  artifactKey: Guid(85e3723e62d44f758723754190c67911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderPack/Assets/Texture/Wood_D.tif using Guid(85e3723e62d44f758723754190c67911) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'ad7ae0ac1e032e238c09cca4548d2af7') in 0.017161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Assembly reference Assets/AmplifyShaderPack/Samples BIRP/Samples/PostProcess Mosaic Effect/AssemblyReference.asmref has no target assembly definition
+Caller must complete domain reload
+Assembly reference Assets/AmplifyShaderPack/Samples BIRP/Samples/PostProcess Mosaic Effect/AssemblyReference.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.382 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Assembly reference Assets/AmplifyShaderPack/Samples BIRP/Samples/PostProcess Mosaic Effect/AssemblyReference.asmref has no target assembly definition
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.038 seconds
+Domain Reload Profiling: 1415ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (207ms)
+		LoadAssemblies (265ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1038ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (316ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (207ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 4.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3242 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 123 unused Assets / (83.3 MB). Loaded Objects now: 3695.
+Memory consumption went from 245.8 MB to 162.5 MB.
+Total: 8.534100 ms (FindLiveObjects: 0.149100 ms CreateObjectMapping: 0.037900 ms MarkObjects: 1.382500 ms  DeleteObjects: 6.963700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MiniRunUIManager.cs: e1ca3eb99cd48ad45d7a1c005bc8d87b -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardInitializer.cs: 65c354b00b184091d88701ee118b5239 -> 752013e1d037003a34653b76abe1a7ee
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/Pixelize.cs: fe18d69905ec098db33e494873877e81 -> 
+  custom:scripting/monoscript/fileName/Smear.cs: a91ddc98111e6029b3f515dc68a77cb1 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileAnimator.cs: 0fbd365c61ad10bd4a91e13ca95733b4 -> 5d5448ff0273ff8b5a59d8a41792d0f1
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/SpriteMaskController.cs: 7b2aa75bfa08c2c2c75b42f43b09aba4 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileInputHandler.cs: e8dfa7d034835c2a6e367a3044606e31 -> 21d522cd19b0f24b69181e38617254f4
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ForceShieldShootBall.cs: 75c9ab765ab399bd8a37cd88f585bdfd -> 
+  custom:scripting/monoscript/fileName/ASPStartup.cs: 93af8ecb1a60de2d847a6e86c3e56e75 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ASPAbout.cs: 7ac90f92e4f8e0bd6d1d1eaac726450e -> 
+  custom:scripting/monoscript/fileName/MiniRunCameraController.cs: 83ca5f11c7d6ab63237de31e12a5a55e -> 
+  custom:scripting/monoscript/fileName/PostProcessExample.cs: a24a9527886732c781537496a2a58d29 -> 
+  custom:scripting/monoscript/fileName/highlightAnimated.cs: a6c4bca67b2ff04de8082bb16012d455 -> 
+  custom:scripting/monoscript/fileName/ForceShieldDestroyBall.cs: 9fc81255632866449976e5efbcd054ce -> 
+  custom:scripting/monoscript/fileName/CameraDepthActivation.cs: 72cf1d798c2519d7a54f2e65d038a164 -> 
+  custom:scripting/monoscript/fileName/SimpleGPUInstancingExample.cs: ee17c98245ef8f1ef2917cf0c4e101be -> 
+  custom:scripting/monoscript/fileName/MiniPangTileMover.cs: 6735b0e897597cf005478f39572de56a -> 0279341fd27f437813706b990b48418e
+  custom:scripting/monoscript/fileName/MiniPangTile.cs: d3543fa8080eeb5fa1a5208346286141 -> 671572d2a71da728225017797b33a58b
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MiniRunInputHandler.cs: a7331a444a505c909cfc09ebcb3f8a45 -> 
+  custom:scripting/monoscript/fileName/SimpleMoveExample.cs: 9f764409fa557d85bc0ab47aa3f1eaee -> 
+  custom:scripting/monoscript/fileName/MiniPangTileChecker.cs: 69beba7b4a2db96642d8f7af1f01c537 -> 6d9ad599dee425a582a235fd7716f269
+  custom:scripting/monoscript/fileName/ASPPackageManagerHelper.cs: 51c93367b0c24e45a4c15f7ea467b51c -> 
+  custom:scripting/monoscript/fileName/ASPPreferences.cs: b7a79579c2393d6fbfe46f7869e133b4 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ASPReadme.cs: daafaf33aadc655c0711f46804df96af -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MiniPangMatchChecker.cs: 406ed0c0da50d9fe63e38b542c60b69c -> c4d524ae0cb9b6129fc3f0b8a8596b20
+  custom:scripting/monoscript/fileName/MiniPangMatchUtility.cs: 45f9efd6629d2bb798db20f38755bd2b -> c1328b7f70265c7a783a91e8289b3d73
+  custom:scripting/monoscript/fileName/MiniRunScoreManager.cs: 91c42c68ef46f211d89469a4534020e7 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardUpdater.cs: 81b98ac617cfecc4f64fef9c2b94c2fd -> bfa01e847f163241385b44902df5bb5a
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MiniRunGameManager.cs: d006fa27b6711619930234e07e33474c -> 
+  custom:scripting/monoscript/fileName/CustomRTRainUpdate.cs: 3be77c543059885c85b9a09f39ff8dd4 -> 
+  custom:scripting/monoscript/fileName/OmniDecalMovement.cs: bcff513510bf3e59e444bed8d2b47b67 -> 
+  custom:scripting/monoscript/fileName/MiniRunPlayerController.cs: 30c429214c327fb68155ee4a3dfa60a2 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardShuffler.cs: 198fb84ce3867a6df767fa0d46a4d4b7 -> 0166704e721e129c925e040c013808a4
+  custom:scripting/monoscript/fileName/VersionInfo.cs: eecf4f65def1c8397bc5f97a7ec79ca8 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileSwapper.cs: 35837ad2bbf55a03b1f70ed3cc355f75 -> 345415dedd499c92d67d5b12434f7587
+  custom:scripting/monoscript/fileName/MiniRunObstacleSpawner.cs: a7bae19db0084ff718e98ebd1cf4dde0 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/VolumetricSphere.cs: 3ce364a7df123b44ad0c9d41dbde50c0 -> 
+  custom:scripting/monoscript/fileName/MiniPangTilePlacer.cs: 62fb1f9aa0e098426e63a794b2fcf83c -> fcbc313f4edc9bfdc0c460ef3c45f548
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ASPReadmeEditor.cs: 4a91a7cd3aa0d2ac5b84dac3253593f4 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardManager.cs: 881658c8ba5538e1f37b1b306d49e10a -> 06711afc23d72767d95994c3c713b811
+  custom:scripting/monoscript/fileName/MiniPangScoreManager.cs: cf9e17ed0f1fde0387365e3559207157 -> b1fe1de6cb0ee5623c8a33dc8bbd0941
+  custom:scripting/monoscript/fileName/ForceShieldImpactDetection.cs: b1e17d3ad4b89375ddc9378b35f2f00b -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 7ef6a1d067e8a4745f1cde00ca9c4506 -> 2cee812bb162aa112c4ca4b4ce12d6a1
+  custom:scripting/monoscript/fileName/MiniPangTileDestroyer.cs: 6f1b42ff45e1a68234182c3d1ffbcbe5 -> 9c5842f9d2faa03c3f509d2347f03b77
+  custom:scripting/monoscript/fileName/MiniPangScoreUpdater.cs: e8502ee5137682a9f24eef9425c7f881 -> 28eed88101c8c542b110c0c1b49120b2
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 7a66fd56dc2f048e37bc61ac038f8085 -> 713ec4366c0aa1658606e055631a0da5
+  custom:scripting/monoscript/fileName/PlaneClip.cs: 6c6365620cb4fe55c7c447054299716d -> 
+  custom:scripting/monoscript/fileName/ASPStartScreen.cs: 78a8abd5f1647ba6cd676a26786b20e6 -> 
+========================================================================
+Received Prepare
+Assembly reference Assets/AmplifyShaderPack/Samples BIRP/Samples/PostProcess Mosaic Effect/AssemblyReference.asmref has no target assembly definition
+Caller must complete domain reload
+Assembly reference Assets/AmplifyShaderPack/Samples BIRP/Samples/PostProcess Mosaic Effect/AssemblyReference.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.398 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Assembly reference Assets/AmplifyShaderPack/Samples BIRP/Samples/PostProcess Mosaic Effect/AssemblyReference.asmref has no target assembly definition
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.929 seconds
+Domain Reload Profiling: 1321ms
+	BeginReloadAssembly (125ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (213ms)
+		LoadAssemblies (281ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (930ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (351ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (223ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 5.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3243 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 123 unused Assets / (83.3 MB). Loaded Objects now: 3698.
+Memory consumption went from 246.0 MB to 162.8 MB.
+Total: 9.320600 ms (FindLiveObjects: 0.152900 ms CreateObjectMapping: 0.038400 ms MarkObjects: 1.538700 ms  DeleteObjects: 7.589800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MiniRunUIManager.cs: e1ca3eb99cd48ad45d7a1c005bc8d87b -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardInitializer.cs: 65c354b00b184091d88701ee118b5239 -> 752013e1d037003a34653b76abe1a7ee
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/Pixelize.cs: fe18d69905ec098db33e494873877e81 -> 
+  custom:scripting/monoscript/fileName/Smear.cs: a91ddc98111e6029b3f515dc68a77cb1 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileAnimator.cs: 0fbd365c61ad10bd4a91e13ca95733b4 -> 5d5448ff0273ff8b5a59d8a41792d0f1
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/SpriteMaskController.cs: 7b2aa75bfa08c2c2c75b42f43b09aba4 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileInputHandler.cs: e8dfa7d034835c2a6e367a3044606e31 -> 21d522cd19b0f24b69181e38617254f4
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ForceShieldShootBall.cs: 75c9ab765ab399bd8a37cd88f585bdfd -> 
+  custom:scripting/monoscript/fileName/ASPStartup.cs: 93af8ecb1a60de2d847a6e86c3e56e75 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ASPAbout.cs: 7ac90f92e4f8e0bd6d1d1eaac726450e -> 
+  custom:scripting/monoscript/fileName/MiniRunCameraController.cs: 83ca5f11c7d6ab63237de31e12a5a55e -> 
+  custom:scripting/monoscript/fileName/PostProcessExample.cs: a24a9527886732c781537496a2a58d29 -> 
+  custom:scripting/monoscript/fileName/highlightAnimated.cs: a6c4bca67b2ff04de8082bb16012d455 -> 
+  custom:scripting/monoscript/fileName/ForceShieldDestroyBall.cs: 9fc81255632866449976e5efbcd054ce -> 
+  custom:scripting/monoscript/fileName/CameraDepthActivation.cs: 72cf1d798c2519d7a54f2e65d038a164 -> 
+  custom:scripting/monoscript/fileName/SimpleGPUInstancingExample.cs: ee17c98245ef8f1ef2917cf0c4e101be -> 
+  custom:scripting/monoscript/fileName/MiniPangTileMover.cs: 6735b0e897597cf005478f39572de56a -> 0279341fd27f437813706b990b48418e
+  custom:scripting/monoscript/fileName/MiniPangTile.cs: d3543fa8080eeb5fa1a5208346286141 -> 671572d2a71da728225017797b33a58b
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MiniRunInputHandler.cs: a7331a444a505c909cfc09ebcb3f8a45 -> 
+  custom:scripting/monoscript/fileName/SimpleMoveExample.cs: 9f764409fa557d85bc0ab47aa3f1eaee -> 
+  custom:scripting/monoscript/fileName/MiniPangTileChecker.cs: 69beba7b4a2db96642d8f7af1f01c537 -> 6d9ad599dee425a582a235fd7716f269
+  custom:scripting/monoscript/fileName/ASPPackageManagerHelper.cs: 51c93367b0c24e45a4c15f7ea467b51c -> 
+  custom:scripting/monoscript/fileName/ASPPreferences.cs: b7a79579c2393d6fbfe46f7869e133b4 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ASPReadme.cs: daafaf33aadc655c0711f46804df96af -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MiniPangMatchChecker.cs: 406ed0c0da50d9fe63e38b542c60b69c -> c4d524ae0cb9b6129fc3f0b8a8596b20
+  custom:scripting/monoscript/fileName/MiniPangMatchUtility.cs: 45f9efd6629d2bb798db20f38755bd2b -> c1328b7f70265c7a783a91e8289b3d73
+  custom:scripting/monoscript/fileName/MiniRunScoreManager.cs: 91c42c68ef46f211d89469a4534020e7 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardUpdater.cs: 81b98ac617cfecc4f64fef9c2b94c2fd -> bfa01e847f163241385b44902df5bb5a
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MiniRunGameManager.cs: d006fa27b6711619930234e07e33474c -> 
+  custom:scripting/monoscript/fileName/CustomRTRainUpdate.cs: 3be77c543059885c85b9a09f39ff8dd4 -> 
+  custom:scripting/monoscript/fileName/OmniDecalMovement.cs: bcff513510bf3e59e444bed8d2b47b67 -> 
+  custom:scripting/monoscript/fileName/MiniRunPlayerController.cs: 30c429214c327fb68155ee4a3dfa60a2 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardShuffler.cs: 198fb84ce3867a6df767fa0d46a4d4b7 -> 0166704e721e129c925e040c013808a4
+  custom:scripting/monoscript/fileName/VersionInfo.cs: eecf4f65def1c8397bc5f97a7ec79ca8 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileSwapper.cs: 35837ad2bbf55a03b1f70ed3cc355f75 -> 345415dedd499c92d67d5b12434f7587
+  custom:scripting/monoscript/fileName/MiniRunObstacleSpawner.cs: a7bae19db0084ff718e98ebd1cf4dde0 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/VolumetricSphere.cs: 3ce364a7df123b44ad0c9d41dbde50c0 -> 
+  custom:scripting/monoscript/fileName/MiniPangTilePlacer.cs: 62fb1f9aa0e098426e63a794b2fcf83c -> fcbc313f4edc9bfdc0c460ef3c45f548
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ASPReadmeEditor.cs: 4a91a7cd3aa0d2ac5b84dac3253593f4 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardManager.cs: 881658c8ba5538e1f37b1b306d49e10a -> 06711afc23d72767d95994c3c713b811
+  custom:scripting/monoscript/fileName/MiniPangScoreManager.cs: cf9e17ed0f1fde0387365e3559207157 -> b1fe1de6cb0ee5623c8a33dc8bbd0941
+  custom:scripting/monoscript/fileName/ForceShieldImpactDetection.cs: b1e17d3ad4b89375ddc9378b35f2f00b -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 7ef6a1d067e8a4745f1cde00ca9c4506 -> 2cee812bb162aa112c4ca4b4ce12d6a1
+  custom:scripting/monoscript/fileName/MiniPangTileDestroyer.cs: 6f1b42ff45e1a68234182c3d1ffbcbe5 -> 9c5842f9d2faa03c3f509d2347f03b77
+  custom:scripting/monoscript/fileName/MiniPangScoreUpdater.cs: e8502ee5137682a9f24eef9425c7f881 -> 28eed88101c8c542b110c0c1b49120b2
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 7a66fd56dc2f048e37bc61ac038f8085 -> 713ec4366c0aa1658606e055631a0da5
+  custom:scripting/monoscript/fileName/PlaneClip.cs: 6c6365620cb4fe55c7c447054299716d -> 
+  custom:scripting/monoscript/fileName/ASPStartScreen.cs: 78a8abd5f1647ba6cd676a26786b20e6 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 58.868246 seconds.
+  path: Assets/AmplifyShaderPack/Assets/Texture/Ramp Burn.png
+  artifactKey: Guid(e2216e52e64b498b961c693f564d4d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderPack/Assets/Texture/Ramp Burn.png using Guid(e2216e52e64b498b961c693f564d4d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '18ec107f868a075c9028c6cdd3b8a1c4') in 0.040624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Assembly reference Assets/AmplifyShaderPack/Samples BIRP/Samples/PostProcess Mosaic Effect/AssemblyReference.asmref has no target assembly definition
+Caller must complete domain reload
+Assembly reference Assets/AmplifyShaderPack/Samples BIRP/Samples/PostProcess Mosaic Effect/AssemblyReference.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.492 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Assembly reference Assets/AmplifyShaderPack/Samples BIRP/Samples/PostProcess Mosaic Effect/AssemblyReference.asmref has no target assembly definition
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.864 seconds
+Domain Reload Profiling: 1328ms
+	BeginReloadAssembly (118ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (238ms)
+		LoadAssemblies (293ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (864ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (300ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (194ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 4.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (1.5 MB). Loaded Objects now: 3700.
+Memory consumption went from 136.7 MB to 135.1 MB.
+Total: 1.988400 ms (FindLiveObjects: 0.140600 ms CreateObjectMapping: 0.045100 ms MarkObjects: 1.384000 ms  DeleteObjects: 0.417800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MiniRunUIManager.cs: e1ca3eb99cd48ad45d7a1c005bc8d87b -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardInitializer.cs: 65c354b00b184091d88701ee118b5239 -> 752013e1d037003a34653b76abe1a7ee
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/Pixelize.cs: fe18d69905ec098db33e494873877e81 -> 
+  custom:scripting/monoscript/fileName/Smear.cs: a91ddc98111e6029b3f515dc68a77cb1 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileAnimator.cs: 0fbd365c61ad10bd4a91e13ca95733b4 -> 5d5448ff0273ff8b5a59d8a41792d0f1
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/SpriteMaskController.cs: 7b2aa75bfa08c2c2c75b42f43b09aba4 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileInputHandler.cs: e8dfa7d034835c2a6e367a3044606e31 -> 21d522cd19b0f24b69181e38617254f4
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ForceShieldShootBall.cs: 75c9ab765ab399bd8a37cd88f585bdfd -> 
+  custom:scripting/monoscript/fileName/ASPStartup.cs: 93af8ecb1a60de2d847a6e86c3e56e75 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ASPAbout.cs: 7ac90f92e4f8e0bd6d1d1eaac726450e -> 
+  custom:scripting/monoscript/fileName/MiniRunCameraController.cs: 83ca5f11c7d6ab63237de31e12a5a55e -> 
+  custom:scripting/monoscript/fileName/PostProcessExample.cs: a24a9527886732c781537496a2a58d29 -> 
+  custom:scripting/monoscript/fileName/highlightAnimated.cs: a6c4bca67b2ff04de8082bb16012d455 -> 
+  custom:scripting/monoscript/fileName/ForceShieldDestroyBall.cs: 9fc81255632866449976e5efbcd054ce -> 
+  custom:scripting/monoscript/fileName/CameraDepthActivation.cs: 72cf1d798c2519d7a54f2e65d038a164 -> 
+  custom:scripting/monoscript/fileName/SimpleGPUInstancingExample.cs: ee17c98245ef8f1ef2917cf0c4e101be -> 
+  custom:scripting/monoscript/fileName/MiniPangTileMover.cs: 6735b0e897597cf005478f39572de56a -> 0279341fd27f437813706b990b48418e
+  custom:scripting/monoscript/fileName/MiniPangTile.cs: d3543fa8080eeb5fa1a5208346286141 -> 671572d2a71da728225017797b33a58b
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MiniRunInputHandler.cs: a7331a444a505c909cfc09ebcb3f8a45 -> 
+  custom:scripting/monoscript/fileName/SimpleMoveExample.cs: 9f764409fa557d85bc0ab47aa3f1eaee -> 
+  custom:scripting/monoscript/fileName/MiniPangTileChecker.cs: 69beba7b4a2db96642d8f7af1f01c537 -> 6d9ad599dee425a582a235fd7716f269
+  custom:scripting/monoscript/fileName/ASPPackageManagerHelper.cs: 51c93367b0c24e45a4c15f7ea467b51c -> 
+  custom:scripting/monoscript/fileName/ASPPreferences.cs: b7a79579c2393d6fbfe46f7869e133b4 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ASPReadme.cs: daafaf33aadc655c0711f46804df96af -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MiniPangMatchChecker.cs: 406ed0c0da50d9fe63e38b542c60b69c -> c4d524ae0cb9b6129fc3f0b8a8596b20
+  custom:scripting/monoscript/fileName/MiniPangMatchUtility.cs: 45f9efd6629d2bb798db20f38755bd2b -> c1328b7f70265c7a783a91e8289b3d73
+  custom:scripting/monoscript/fileName/MiniRunScoreManager.cs: 91c42c68ef46f211d89469a4534020e7 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardUpdater.cs: 81b98ac617cfecc4f64fef9c2b94c2fd -> bfa01e847f163241385b44902df5bb5a
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MiniRunGameManager.cs: d006fa27b6711619930234e07e33474c -> 
+  custom:scripting/monoscript/fileName/CustomRTRainUpdate.cs: 3be77c543059885c85b9a09f39ff8dd4 -> 
+  custom:scripting/monoscript/fileName/OmniDecalMovement.cs: bcff513510bf3e59e444bed8d2b47b67 -> 
+  custom:scripting/monoscript/fileName/MiniRunPlayerController.cs: 30c429214c327fb68155ee4a3dfa60a2 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardShuffler.cs: 198fb84ce3867a6df767fa0d46a4d4b7 -> 0166704e721e129c925e040c013808a4
+  custom:scripting/monoscript/fileName/VersionInfo.cs: eecf4f65def1c8397bc5f97a7ec79ca8 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileSwapper.cs: 35837ad2bbf55a03b1f70ed3cc355f75 -> 345415dedd499c92d67d5b12434f7587
+  custom:scripting/monoscript/fileName/MiniRunObstacleSpawner.cs: a7bae19db0084ff718e98ebd1cf4dde0 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/VolumetricSphere.cs: 3ce364a7df123b44ad0c9d41dbde50c0 -> 
+  custom:scripting/monoscript/fileName/MiniPangTilePlacer.cs: 62fb1f9aa0e098426e63a794b2fcf83c -> fcbc313f4edc9bfdc0c460ef3c45f548
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ASPReadmeEditor.cs: 4a91a7cd3aa0d2ac5b84dac3253593f4 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardManager.cs: 881658c8ba5538e1f37b1b306d49e10a -> 06711afc23d72767d95994c3c713b811
+  custom:scripting/monoscript/fileName/MiniPangScoreManager.cs: cf9e17ed0f1fde0387365e3559207157 -> b1fe1de6cb0ee5623c8a33dc8bbd0941
+  custom:scripting/monoscript/fileName/ForceShieldImpactDetection.cs: b1e17d3ad4b89375ddc9378b35f2f00b -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 7ef6a1d067e8a4745f1cde00ca9c4506 -> 2cee812bb162aa112c4ca4b4ce12d6a1
+  custom:scripting/monoscript/fileName/MiniPangTileDestroyer.cs: 6f1b42ff45e1a68234182c3d1ffbcbe5 -> 9c5842f9d2faa03c3f509d2347f03b77
+  custom:scripting/monoscript/fileName/MiniPangScoreUpdater.cs: e8502ee5137682a9f24eef9425c7f881 -> 28eed88101c8c542b110c0c1b49120b2
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 7a66fd56dc2f048e37bc61ac038f8085 -> 713ec4366c0aa1658606e055631a0da5
+  custom:scripting/monoscript/fileName/PlaneClip.cs: 6c6365620cb4fe55c7c447054299716d -> 
+  custom:scripting/monoscript/fileName/ASPStartScreen.cs: 78a8abd5f1647ba6cd676a26786b20e6 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 414.299043 seconds.
+  path: Assets/AmplifyShaderPack/Assets/Texture/Metal Brushed 01_N.tif
+  artifactKey: Guid(bec834914d444ee688f9583988f45e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderPack/Assets/Texture/Metal Brushed 01_N.tif using Guid(bec834914d444ee688f9583988f45e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '4e3718bcbe806b21a7f2e94227d410ad') in 0.037548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Assembly reference Assets/AmplifyShaderPack/Samples BIRP/Samples/PostProcess Mosaic Effect/AssemblyReference.asmref has no target assembly definition
+Caller must complete domain reload
+Assembly reference Assets/AmplifyShaderPack/Samples BIRP/Samples/PostProcess Mosaic Effect/AssemblyReference.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.371 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Assembly reference Assets/AmplifyShaderPack/Samples BIRP/Samples/PostProcess Mosaic Effect/AssemblyReference.asmref has no target assembly definition
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.894 seconds
+Domain Reload Profiling: 1260ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (198ms)
+		LoadAssemblies (258ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (894ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (331ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (213ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 6.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (1.5 MB). Loaded Objects now: 3705.
+Memory consumption went from 136.7 MB to 135.2 MB.
+Total: 2.084000 ms (FindLiveObjects: 0.228700 ms CreateObjectMapping: 0.044600 ms MarkObjects: 1.420700 ms  DeleteObjects: 0.389200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MiniRunUIManager.cs: e1ca3eb99cd48ad45d7a1c005bc8d87b -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardInitializer.cs: 65c354b00b184091d88701ee118b5239 -> 752013e1d037003a34653b76abe1a7ee
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/Pixelize.cs: fe18d69905ec098db33e494873877e81 -> 
+  custom:scripting/monoscript/fileName/Smear.cs: a91ddc98111e6029b3f515dc68a77cb1 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileAnimator.cs: 0fbd365c61ad10bd4a91e13ca95733b4 -> 5d5448ff0273ff8b5a59d8a41792d0f1
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/SpriteMaskController.cs: 7b2aa75bfa08c2c2c75b42f43b09aba4 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileInputHandler.cs: e8dfa7d034835c2a6e367a3044606e31 -> 21d522cd19b0f24b69181e38617254f4
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ForceShieldShootBall.cs: 75c9ab765ab399bd8a37cd88f585bdfd -> 
+  custom:scripting/monoscript/fileName/ASPStartup.cs: 93af8ecb1a60de2d847a6e86c3e56e75 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ASPAbout.cs: 7ac90f92e4f8e0bd6d1d1eaac726450e -> 
+  custom:scripting/monoscript/fileName/MiniRunCameraController.cs: 83ca5f11c7d6ab63237de31e12a5a55e -> 
+  custom:scripting/monoscript/fileName/PostProcessExample.cs: a24a9527886732c781537496a2a58d29 -> 
+  custom:scripting/monoscript/fileName/highlightAnimated.cs: a6c4bca67b2ff04de8082bb16012d455 -> 
+  custom:scripting/monoscript/fileName/ForceShieldDestroyBall.cs: 9fc81255632866449976e5efbcd054ce -> 
+  custom:scripting/monoscript/fileName/CameraDepthActivation.cs: 72cf1d798c2519d7a54f2e65d038a164 -> 
+  custom:scripting/monoscript/fileName/SimpleGPUInstancingExample.cs: ee17c98245ef8f1ef2917cf0c4e101be -> 
+  custom:scripting/monoscript/fileName/MiniPangTileMover.cs: 6735b0e897597cf005478f39572de56a -> 0279341fd27f437813706b990b48418e
+  custom:scripting/monoscript/fileName/MiniPangTile.cs: d3543fa8080eeb5fa1a5208346286141 -> 671572d2a71da728225017797b33a58b
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MiniRunInputHandler.cs: a7331a444a505c909cfc09ebcb3f8a45 -> 
+  custom:scripting/monoscript/fileName/SimpleMoveExample.cs: 9f764409fa557d85bc0ab47aa3f1eaee -> 
+  custom:scripting/monoscript/fileName/MiniPangTileChecker.cs: 69beba7b4a2db96642d8f7af1f01c537 -> 6d9ad599dee425a582a235fd7716f269
+  custom:scripting/monoscript/fileName/ASPPackageManagerHelper.cs: 51c93367b0c24e45a4c15f7ea467b51c -> 
+  custom:scripting/monoscript/fileName/ASPPreferences.cs: b7a79579c2393d6fbfe46f7869e133b4 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ASPReadme.cs: daafaf33aadc655c0711f46804df96af -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MiniPangMatchChecker.cs: 406ed0c0da50d9fe63e38b542c60b69c -> c4d524ae0cb9b6129fc3f0b8a8596b20
+  custom:scripting/monoscript/fileName/MiniPangMatchUtility.cs: 45f9efd6629d2bb798db20f38755bd2b -> c1328b7f70265c7a783a91e8289b3d73
+  custom:scripting/monoscript/fileName/MiniRunScoreManager.cs: 91c42c68ef46f211d89469a4534020e7 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardUpdater.cs: 81b98ac617cfecc4f64fef9c2b94c2fd -> bfa01e847f163241385b44902df5bb5a
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MiniRunGameManager.cs: d006fa27b6711619930234e07e33474c -> 
+  custom:scripting/monoscript/fileName/CustomRTRainUpdate.cs: 3be77c543059885c85b9a09f39ff8dd4 -> 
+  custom:scripting/monoscript/fileName/OmniDecalMovement.cs: bcff513510bf3e59e444bed8d2b47b67 -> 
+  custom:scripting/monoscript/fileName/MiniRunPlayerController.cs: 30c429214c327fb68155ee4a3dfa60a2 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardShuffler.cs: 198fb84ce3867a6df767fa0d46a4d4b7 -> 0166704e721e129c925e040c013808a4
+  custom:scripting/monoscript/fileName/VersionInfo.cs: eecf4f65def1c8397bc5f97a7ec79ca8 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileSwapper.cs: 35837ad2bbf55a03b1f70ed3cc355f75 -> 345415dedd499c92d67d5b12434f7587
+  custom:scripting/monoscript/fileName/MiniRunObstacleSpawner.cs: a7bae19db0084ff718e98ebd1cf4dde0 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/VolumetricSphere.cs: 3ce364a7df123b44ad0c9d41dbde50c0 -> 
+  custom:scripting/monoscript/fileName/MiniPangTilePlacer.cs: 62fb1f9aa0e098426e63a794b2fcf83c -> fcbc313f4edc9bfdc0c460ef3c45f548
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ASPReadmeEditor.cs: 4a91a7cd3aa0d2ac5b84dac3253593f4 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardManager.cs: 881658c8ba5538e1f37b1b306d49e10a -> 06711afc23d72767d95994c3c713b811
+  custom:scripting/monoscript/fileName/MiniPangScoreManager.cs: cf9e17ed0f1fde0387365e3559207157 -> b1fe1de6cb0ee5623c8a33dc8bbd0941
+  custom:scripting/monoscript/fileName/ForceShieldImpactDetection.cs: b1e17d3ad4b89375ddc9378b35f2f00b -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 7ef6a1d067e8a4745f1cde00ca9c4506 -> 2cee812bb162aa112c4ca4b4ce12d6a1
+  custom:scripting/monoscript/fileName/MiniPangTileDestroyer.cs: 6f1b42ff45e1a68234182c3d1ffbcbe5 -> 9c5842f9d2faa03c3f509d2347f03b77
+  custom:scripting/monoscript/fileName/MiniPangScoreUpdater.cs: e8502ee5137682a9f24eef9425c7f881 -> 28eed88101c8c542b110c0c1b49120b2
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 7a66fd56dc2f048e37bc61ac038f8085 -> 713ec4366c0aa1658606e055631a0da5
+  custom:scripting/monoscript/fileName/PlaneClip.cs: 6c6365620cb4fe55c7c447054299716d -> 
+  custom:scripting/monoscript/fileName/ASPStartScreen.cs: 78a8abd5f1647ba6cd676a26786b20e6 -> 
+========================================================================
+Received Prepare
+Assembly reference Assets/AmplifyShaderPack/Samples BIRP/Samples/PostProcess Mosaic Effect/AssemblyReference.asmref has no target assembly definition
+Caller must complete domain reload
+Assembly reference Assets/AmplifyShaderPack/Samples BIRP/Samples/PostProcess Mosaic Effect/AssemblyReference.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.353 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Assembly reference Assets/AmplifyShaderPack/Samples BIRP/Samples/PostProcess Mosaic Effect/AssemblyReference.asmref has no target assembly definition
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.772 seconds
+Domain Reload Profiling: 1121ms
+	BeginReloadAssembly (111ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (189ms)
+		LoadAssemblies (241ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (772ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (303ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (191ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 4.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3138 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (1.5 MB). Loaded Objects now: 3708.
+Memory consumption went from 137.0 MB to 135.5 MB.
+Total: 1.879200 ms (FindLiveObjects: 0.130100 ms CreateObjectMapping: 0.035700 ms MarkObjects: 1.312100 ms  DeleteObjects: 0.400500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MiniRunUIManager.cs: e1ca3eb99cd48ad45d7a1c005bc8d87b -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardInitializer.cs: 65c354b00b184091d88701ee118b5239 -> 752013e1d037003a34653b76abe1a7ee
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/Pixelize.cs: fe18d69905ec098db33e494873877e81 -> 
+  custom:scripting/monoscript/fileName/Smear.cs: a91ddc98111e6029b3f515dc68a77cb1 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileAnimator.cs: 0fbd365c61ad10bd4a91e13ca95733b4 -> 5d5448ff0273ff8b5a59d8a41792d0f1
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/SpriteMaskController.cs: 7b2aa75bfa08c2c2c75b42f43b09aba4 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileInputHandler.cs: e8dfa7d034835c2a6e367a3044606e31 -> 21d522cd19b0f24b69181e38617254f4
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ForceShieldShootBall.cs: 75c9ab765ab399bd8a37cd88f585bdfd -> 
+  custom:scripting/monoscript/fileName/ASPStartup.cs: 93af8ecb1a60de2d847a6e86c3e56e75 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ASPAbout.cs: 7ac90f92e4f8e0bd6d1d1eaac726450e -> 
+  custom:scripting/monoscript/fileName/MiniRunCameraController.cs: 83ca5f11c7d6ab63237de31e12a5a55e -> 
+  custom:scripting/monoscript/fileName/PostProcessExample.cs: a24a9527886732c781537496a2a58d29 -> 
+  custom:scripting/monoscript/fileName/highlightAnimated.cs: a6c4bca67b2ff04de8082bb16012d455 -> 
+  custom:scripting/monoscript/fileName/ForceShieldDestroyBall.cs: 9fc81255632866449976e5efbcd054ce -> 
+  custom:scripting/monoscript/fileName/CameraDepthActivation.cs: 72cf1d798c2519d7a54f2e65d038a164 -> 
+  custom:scripting/monoscript/fileName/SimpleGPUInstancingExample.cs: ee17c98245ef8f1ef2917cf0c4e101be -> 
+  custom:scripting/monoscript/fileName/MiniPangTileMover.cs: 6735b0e897597cf005478f39572de56a -> 0279341fd27f437813706b990b48418e
+  custom:scripting/monoscript/fileName/MiniPangTile.cs: d3543fa8080eeb5fa1a5208346286141 -> 671572d2a71da728225017797b33a58b
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MiniRunInputHandler.cs: a7331a444a505c909cfc09ebcb3f8a45 -> 
+  custom:scripting/monoscript/fileName/SimpleMoveExample.cs: 9f764409fa557d85bc0ab47aa3f1eaee -> 
+  custom:scripting/monoscript/fileName/MiniPangTileChecker.cs: 69beba7b4a2db96642d8f7af1f01c537 -> 6d9ad599dee425a582a235fd7716f269
+  custom:scripting/monoscript/fileName/ASPPackageManagerHelper.cs: 51c93367b0c24e45a4c15f7ea467b51c -> 
+  custom:scripting/monoscript/fileName/ASPPreferences.cs: b7a79579c2393d6fbfe46f7869e133b4 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ASPReadme.cs: daafaf33aadc655c0711f46804df96af -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MiniPangMatchChecker.cs: 406ed0c0da50d9fe63e38b542c60b69c -> c4d524ae0cb9b6129fc3f0b8a8596b20
+  custom:scripting/monoscript/fileName/MiniPangMatchUtility.cs: 45f9efd6629d2bb798db20f38755bd2b -> c1328b7f70265c7a783a91e8289b3d73
+  custom:scripting/monoscript/fileName/MiniRunScoreManager.cs: 91c42c68ef46f211d89469a4534020e7 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardUpdater.cs: 81b98ac617cfecc4f64fef9c2b94c2fd -> bfa01e847f163241385b44902df5bb5a
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MiniRunGameManager.cs: d006fa27b6711619930234e07e33474c -> 
+  custom:scripting/monoscript/fileName/CustomRTRainUpdate.cs: 3be77c543059885c85b9a09f39ff8dd4 -> 
+  custom:scripting/monoscript/fileName/OmniDecalMovement.cs: bcff513510bf3e59e444bed8d2b47b67 -> 
+  custom:scripting/monoscript/fileName/MiniRunPlayerController.cs: 30c429214c327fb68155ee4a3dfa60a2 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardShuffler.cs: 198fb84ce3867a6df767fa0d46a4d4b7 -> 0166704e721e129c925e040c013808a4
+  custom:scripting/monoscript/fileName/VersionInfo.cs: eecf4f65def1c8397bc5f97a7ec79ca8 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileSwapper.cs: 35837ad2bbf55a03b1f70ed3cc355f75 -> 345415dedd499c92d67d5b12434f7587
+  custom:scripting/monoscript/fileName/MiniRunObstacleSpawner.cs: a7bae19db0084ff718e98ebd1cf4dde0 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/VolumetricSphere.cs: 3ce364a7df123b44ad0c9d41dbde50c0 -> 
+  custom:scripting/monoscript/fileName/MiniPangTilePlacer.cs: 62fb1f9aa0e098426e63a794b2fcf83c -> fcbc313f4edc9bfdc0c460ef3c45f548
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ASPReadmeEditor.cs: 4a91a7cd3aa0d2ac5b84dac3253593f4 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardManager.cs: 881658c8ba5538e1f37b1b306d49e10a -> 06711afc23d72767d95994c3c713b811
+  custom:scripting/monoscript/fileName/MiniPangScoreManager.cs: cf9e17ed0f1fde0387365e3559207157 -> b1fe1de6cb0ee5623c8a33dc8bbd0941
+  custom:scripting/monoscript/fileName/ForceShieldImpactDetection.cs: b1e17d3ad4b89375ddc9378b35f2f00b -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 7ef6a1d067e8a4745f1cde00ca9c4506 -> 2cee812bb162aa112c4ca4b4ce12d6a1
+  custom:scripting/monoscript/fileName/MiniPangTileDestroyer.cs: 6f1b42ff45e1a68234182c3d1ffbcbe5 -> 9c5842f9d2faa03c3f509d2347f03b77
+  custom:scripting/monoscript/fileName/MiniPangScoreUpdater.cs: e8502ee5137682a9f24eef9425c7f881 -> 28eed88101c8c542b110c0c1b49120b2
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 7a66fd56dc2f048e37bc61ac038f8085 -> 713ec4366c0aa1658606e055631a0da5
+  custom:scripting/monoscript/fileName/PlaneClip.cs: 6c6365620cb4fe55c7c447054299716d -> 
+  custom:scripting/monoscript/fileName/ASPStartScreen.cs: 78a8abd5f1647ba6cd676a26786b20e6 -> 
+========================================================================
+Received Prepare
+Assembly reference Assets/AmplifyShaderPack/Samples BIRP/Samples/PostProcess Mosaic Effect/AssemblyReference.asmref has no target assembly definition
+Caller must complete domain reload
+Assembly reference Assets/AmplifyShaderPack/Samples BIRP/Samples/PostProcess Mosaic Effect/AssemblyReference.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.349 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Assembly reference Assets/AmplifyShaderPack/Samples BIRP/Samples/PostProcess Mosaic Effect/AssemblyReference.asmref has no target assembly definition
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.889 seconds
+Domain Reload Profiling: 1234ms
+	BeginReloadAssembly (111ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (186ms)
+		LoadAssemblies (243ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (889ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (332ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (212ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 5.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3138 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (1.5 MB). Loaded Objects now: 3711.
+Memory consumption went from 137.0 MB to 135.5 MB.
+Total: 2.044700 ms (FindLiveObjects: 0.148700 ms CreateObjectMapping: 0.037400 ms MarkObjects: 1.362600 ms  DeleteObjects: 0.495100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MiniRunUIManager.cs: e1ca3eb99cd48ad45d7a1c005bc8d87b -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardInitializer.cs: 65c354b00b184091d88701ee118b5239 -> 752013e1d037003a34653b76abe1a7ee
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/Pixelize.cs: fe18d69905ec098db33e494873877e81 -> 
+  custom:scripting/monoscript/fileName/Smear.cs: a91ddc98111e6029b3f515dc68a77cb1 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileAnimator.cs: 0fbd365c61ad10bd4a91e13ca95733b4 -> 5d5448ff0273ff8b5a59d8a41792d0f1
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/SpriteMaskController.cs: 7b2aa75bfa08c2c2c75b42f43b09aba4 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileInputHandler.cs: e8dfa7d034835c2a6e367a3044606e31 -> 21d522cd19b0f24b69181e38617254f4
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ForceShieldShootBall.cs: 75c9ab765ab399bd8a37cd88f585bdfd -> 
+  custom:scripting/monoscript/fileName/ASPStartup.cs: 93af8ecb1a60de2d847a6e86c3e56e75 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ASPAbout.cs: 7ac90f92e4f8e0bd6d1d1eaac726450e -> 
+  custom:scripting/monoscript/fileName/MiniRunCameraController.cs: 83ca5f11c7d6ab63237de31e12a5a55e -> 
+  custom:scripting/monoscript/fileName/PostProcessExample.cs: a24a9527886732c781537496a2a58d29 -> 
+  custom:scripting/monoscript/fileName/highlightAnimated.cs: a6c4bca67b2ff04de8082bb16012d455 -> 
+  custom:scripting/monoscript/fileName/ForceShieldDestroyBall.cs: 9fc81255632866449976e5efbcd054ce -> 
+  custom:scripting/monoscript/fileName/CameraDepthActivation.cs: 72cf1d798c2519d7a54f2e65d038a164 -> 
+  custom:scripting/monoscript/fileName/SimpleGPUInstancingExample.cs: ee17c98245ef8f1ef2917cf0c4e101be -> 
+  custom:scripting/monoscript/fileName/MiniPangTileMover.cs: 6735b0e897597cf005478f39572de56a -> 0279341fd27f437813706b990b48418e
+  custom:scripting/monoscript/fileName/MiniPangTile.cs: d3543fa8080eeb5fa1a5208346286141 -> 671572d2a71da728225017797b33a58b
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MiniRunInputHandler.cs: a7331a444a505c909cfc09ebcb3f8a45 -> 
+  custom:scripting/monoscript/fileName/SimpleMoveExample.cs: 9f764409fa557d85bc0ab47aa3f1eaee -> 
+  custom:scripting/monoscript/fileName/MiniPangTileChecker.cs: 69beba7b4a2db96642d8f7af1f01c537 -> 6d9ad599dee425a582a235fd7716f269
+  custom:scripting/monoscript/fileName/ASPPackageManagerHelper.cs: 51c93367b0c24e45a4c15f7ea467b51c -> 
+  custom:scripting/monoscript/fileName/ASPPreferences.cs: b7a79579c2393d6fbfe46f7869e133b4 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ASPReadme.cs: daafaf33aadc655c0711f46804df96af -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MiniPangMatchChecker.cs: 406ed0c0da50d9fe63e38b542c60b69c -> c4d524ae0cb9b6129fc3f0b8a8596b20
+  custom:scripting/monoscript/fileName/MiniPangMatchUtility.cs: 45f9efd6629d2bb798db20f38755bd2b -> c1328b7f70265c7a783a91e8289b3d73
+  custom:scripting/monoscript/fileName/MiniRunScoreManager.cs: 91c42c68ef46f211d89469a4534020e7 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardUpdater.cs: 81b98ac617cfecc4f64fef9c2b94c2fd -> bfa01e847f163241385b44902df5bb5a
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MiniRunGameManager.cs: d006fa27b6711619930234e07e33474c -> 
+  custom:scripting/monoscript/fileName/CustomRTRainUpdate.cs: 3be77c543059885c85b9a09f39ff8dd4 -> 
+  custom:scripting/monoscript/fileName/OmniDecalMovement.cs: bcff513510bf3e59e444bed8d2b47b67 -> 
+  custom:scripting/monoscript/fileName/MiniRunPlayerController.cs: 30c429214c327fb68155ee4a3dfa60a2 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardShuffler.cs: 198fb84ce3867a6df767fa0d46a4d4b7 -> 0166704e721e129c925e040c013808a4
+  custom:scripting/monoscript/fileName/VersionInfo.cs: eecf4f65def1c8397bc5f97a7ec79ca8 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileSwapper.cs: 35837ad2bbf55a03b1f70ed3cc355f75 -> 345415dedd499c92d67d5b12434f7587
+  custom:scripting/monoscript/fileName/MiniRunObstacleSpawner.cs: a7bae19db0084ff718e98ebd1cf4dde0 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/VolumetricSphere.cs: 3ce364a7df123b44ad0c9d41dbde50c0 -> 
+  custom:scripting/monoscript/fileName/MiniPangTilePlacer.cs: 62fb1f9aa0e098426e63a794b2fcf83c -> fcbc313f4edc9bfdc0c460ef3c45f548
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ASPReadmeEditor.cs: 4a91a7cd3aa0d2ac5b84dac3253593f4 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardManager.cs: 881658c8ba5538e1f37b1b306d49e10a -> 06711afc23d72767d95994c3c713b811
+  custom:scripting/monoscript/fileName/MiniPangScoreManager.cs: cf9e17ed0f1fde0387365e3559207157 -> b1fe1de6cb0ee5623c8a33dc8bbd0941
+  custom:scripting/monoscript/fileName/ForceShieldImpactDetection.cs: b1e17d3ad4b89375ddc9378b35f2f00b -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 7ef6a1d067e8a4745f1cde00ca9c4506 -> 2cee812bb162aa112c4ca4b4ce12d6a1
+  custom:scripting/monoscript/fileName/MiniPangTileDestroyer.cs: 6f1b42ff45e1a68234182c3d1ffbcbe5 -> 9c5842f9d2faa03c3f509d2347f03b77
+  custom:scripting/monoscript/fileName/MiniPangScoreUpdater.cs: e8502ee5137682a9f24eef9425c7f881 -> 28eed88101c8c542b110c0c1b49120b2
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 7a66fd56dc2f048e37bc61ac038f8085 -> 713ec4366c0aa1658606e055631a0da5
+  custom:scripting/monoscript/fileName/PlaneClip.cs: 6c6365620cb4fe55c7c447054299716d -> 
+  custom:scripting/monoscript/fileName/ASPStartScreen.cs: 78a8abd5f1647ba6cd676a26786b20e6 -> 
+========================================================================
+Received Prepare
+Assembly reference Assets/AmplifyShaderPack/Samples BIRP/Samples/PostProcess Mosaic Effect/AssemblyReference.asmref has no target assembly definition
+Caller must complete domain reload
+Assembly reference Assets/AmplifyShaderPack/Samples BIRP/Samples/PostProcess Mosaic Effect/AssemblyReference.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.344 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Assembly reference Assets/AmplifyShaderPack/Samples BIRP/Samples/PostProcess Mosaic Effect/AssemblyReference.asmref has no target assembly definition
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.829 seconds
+Domain Reload Profiling: 1169ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (183ms)
+		LoadAssemblies (239ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (829ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (324ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (211ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 5.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3138 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (1.5 MB). Loaded Objects now: 3714.
+Memory consumption went from 137.0 MB to 135.5 MB.
+Total: 2.077700 ms (FindLiveObjects: 0.162400 ms CreateObjectMapping: 0.041000 ms MarkObjects: 1.483900 ms  DeleteObjects: 0.389900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MiniRunUIManager.cs: e1ca3eb99cd48ad45d7a1c005bc8d87b -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardInitializer.cs: 65c354b00b184091d88701ee118b5239 -> 752013e1d037003a34653b76abe1a7ee
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/Pixelize.cs: fe18d69905ec098db33e494873877e81 -> 
+  custom:scripting/monoscript/fileName/Smear.cs: a91ddc98111e6029b3f515dc68a77cb1 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileAnimator.cs: 0fbd365c61ad10bd4a91e13ca95733b4 -> 5d5448ff0273ff8b5a59d8a41792d0f1
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/SpriteMaskController.cs: 7b2aa75bfa08c2c2c75b42f43b09aba4 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileInputHandler.cs: e8dfa7d034835c2a6e367a3044606e31 -> 21d522cd19b0f24b69181e38617254f4
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ForceShieldShootBall.cs: 75c9ab765ab399bd8a37cd88f585bdfd -> 
+  custom:scripting/monoscript/fileName/ASPStartup.cs: 93af8ecb1a60de2d847a6e86c3e56e75 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ASPAbout.cs: 7ac90f92e4f8e0bd6d1d1eaac726450e -> 
+  custom:scripting/monoscript/fileName/MiniRunCameraController.cs: 83ca5f11c7d6ab63237de31e12a5a55e -> 
+  custom:scripting/monoscript/fileName/PostProcessExample.cs: a24a9527886732c781537496a2a58d29 -> 
+  custom:scripting/monoscript/fileName/highlightAnimated.cs: a6c4bca67b2ff04de8082bb16012d455 -> 
+  custom:scripting/monoscript/fileName/ForceShieldDestroyBall.cs: 9fc81255632866449976e5efbcd054ce -> 
+  custom:scripting/monoscript/fileName/CameraDepthActivation.cs: 72cf1d798c2519d7a54f2e65d038a164 -> 
+  custom:scripting/monoscript/fileName/SimpleGPUInstancingExample.cs: ee17c98245ef8f1ef2917cf0c4e101be -> 
+  custom:scripting/monoscript/fileName/MiniPangTileMover.cs: 6735b0e897597cf005478f39572de56a -> 0279341fd27f437813706b990b48418e
+  custom:scripting/monoscript/fileName/MiniPangTile.cs: d3543fa8080eeb5fa1a5208346286141 -> 671572d2a71da728225017797b33a58b
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MiniRunInputHandler.cs: a7331a444a505c909cfc09ebcb3f8a45 -> 
+  custom:scripting/monoscript/fileName/SimpleMoveExample.cs: 9f764409fa557d85bc0ab47aa3f1eaee -> 
+  custom:scripting/monoscript/fileName/MiniPangTileChecker.cs: 69beba7b4a2db96642d8f7af1f01c537 -> 6d9ad599dee425a582a235fd7716f269
+  custom:scripting/monoscript/fileName/ASPPackageManagerHelper.cs: 51c93367b0c24e45a4c15f7ea467b51c -> 
+  custom:scripting/monoscript/fileName/ASPPreferences.cs: b7a79579c2393d6fbfe46f7869e133b4 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ASPReadme.cs: daafaf33aadc655c0711f46804df96af -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MiniPangMatchChecker.cs: 406ed0c0da50d9fe63e38b542c60b69c -> c4d524ae0cb9b6129fc3f0b8a8596b20
+  custom:scripting/monoscript/fileName/MiniPangMatchUtility.cs: 45f9efd6629d2bb798db20f38755bd2b -> c1328b7f70265c7a783a91e8289b3d73
+  custom:scripting/monoscript/fileName/MiniRunScoreManager.cs: 91c42c68ef46f211d89469a4534020e7 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardUpdater.cs: 81b98ac617cfecc4f64fef9c2b94c2fd -> bfa01e847f163241385b44902df5bb5a
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MiniRunGameManager.cs: d006fa27b6711619930234e07e33474c -> 
+  custom:scripting/monoscript/fileName/CustomRTRainUpdate.cs: 3be77c543059885c85b9a09f39ff8dd4 -> 
+  custom:scripting/monoscript/fileName/OmniDecalMovement.cs: bcff513510bf3e59e444bed8d2b47b67 -> 
+  custom:scripting/monoscript/fileName/MiniRunPlayerController.cs: 30c429214c327fb68155ee4a3dfa60a2 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardShuffler.cs: 198fb84ce3867a6df767fa0d46a4d4b7 -> 0166704e721e129c925e040c013808a4
+  custom:scripting/monoscript/fileName/VersionInfo.cs: eecf4f65def1c8397bc5f97a7ec79ca8 -> 
+  custom:scripting/monoscript/fileName/MiniPangTileSwapper.cs: 35837ad2bbf55a03b1f70ed3cc355f75 -> 345415dedd499c92d67d5b12434f7587
+  custom:scripting/monoscript/fileName/MiniRunObstacleSpawner.cs: a7bae19db0084ff718e98ebd1cf4dde0 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/VolumetricSphere.cs: 3ce364a7df123b44ad0c9d41dbde50c0 -> 
+  custom:scripting/monoscript/fileName/MiniPangTilePlacer.cs: 62fb1f9aa0e098426e63a794b2fcf83c -> fcbc313f4edc9bfdc0c460ef3c45f548
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ASPReadmeEditor.cs: 4a91a7cd3aa0d2ac5b84dac3253593f4 -> 
+  custom:scripting/monoscript/fileName/MiniPangBoardManager.cs: 881658c8ba5538e1f37b1b306d49e10a -> 06711afc23d72767d95994c3c713b811
+  custom:scripting/monoscript/fileName/MiniPangScoreManager.cs: cf9e17ed0f1fde0387365e3559207157 -> b1fe1de6cb0ee5623c8a33dc8bbd0941
+  custom:scripting/monoscript/fileName/ForceShieldImpactDetection.cs: b1e17d3ad4b89375ddc9378b35f2f00b -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 7ef6a1d067e8a4745f1cde00ca9c4506 -> 2cee812bb162aa112c4ca4b4ce12d6a1
+  custom:scripting/monoscript/fileName/MiniPangTileDestroyer.cs: 6f1b42ff45e1a68234182c3d1ffbcbe5 -> 9c5842f9d2faa03c3f509d2347f03b77
+  custom:scripting/monoscript/fileName/MiniPangScoreUpdater.cs: e8502ee5137682a9f24eef9425c7f881 -> 28eed88101c8c542b110c0c1b49120b2
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 7a66fd56dc2f048e37bc61ac038f8085 -> 713ec4366c0aa1658606e055631a0da5
+  custom:scripting/monoscript/fileName/PlaneClip.cs: 6c6365620cb4fe55c7c447054299716d -> 
+  custom:scripting/monoscript/fileName/ASPStartScreen.cs: 78a8abd5f1647ba6cd676a26786b20e6 -> 
