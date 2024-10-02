@@ -1,28 +1,79 @@
-using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class CollisionHandler : MonoBehaviour
 {
+    [SerializeField] float levelLoadDeley = 1.0f;
+    [SerializeField] AudioClip success;
+    [SerializeField] AudioClip crash;
+
+    [SerializeField] ParticleSystem successParticles;
+    [SerializeField] ParticleSystem crashParticles;
+
+    AudioSource audioSource;
+
+    bool isTransitioning = false;
+    bool collisionDisabled = false;
+
+    private void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
+
+    private void Update()
+    {
+        RespondToDebugKey();
+    }
+
+    void RespondToDebugKey()
+    {
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            LoadNextLevel();
+        }
+        else if (Input.GetKeyDown(KeyCode.C))
+        {
+            collisionDisabled = !collisionDisabled;
+        }
+    }
+
     private void OnCollisionEnter(Collision collision)
     {
+        if (isTransitioning || collisionDisabled) return;
+        
         switch (collision.gameObject.tag)
         {
             case "Friendly":
                 Debug.Log("Friendly");
                 break;
             case "Finish":
-                Debug.Log("Finish");
-                LoadNextLevel();
-                break;
-            case "Fuel":
-                Debug.Log("Fuel");
+                StartSuccessSequence();
                 break;
             default:
-                Debug.Log("blew up");
-                Invoke("ReloadLevel", 1f);
+                StartCrashSequence();
                 break;
         }
+        
+    }
+
+    void StartSuccessSequence()
+    {
+        isTransitioning = true;
+        audioSource.Stop();
+        audioSource.PlayOneShot(success);
+        successParticles.Play();
+        GetComponent<Movement>().enabled = false;
+        Invoke("LoadNextLevel", levelLoadDeley);
+    }
+
+    void StartCrashSequence()
+    {
+        isTransitioning = true;
+        audioSource.Stop();
+        audioSource.PlayOneShot(crash);
+        crashParticles.Play();
+        GetComponent<Movement>().enabled = false;
+        Invoke("ReloadLevel", levelLoadDeley);
     }
 
     void LoadNextLevel()
