@@ -4,7 +4,7 @@
             "outputFile": "com.DefaultCompany.RocketBoost.launcher-mergeReleaseResources-3:/values-v30/values-v30.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ralskwo\\Desktop\\Study\\Unity\\UnityGithub\\RocketBoost\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\values-v30\\values-v30.xml",
+                    "source": "C:\\Users\\ralskwo\\Desktop\\Study\\GitHub\\UnityGithub\\RocketBoost\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\values-v30\\values-v30.xml",
                     "from": {
                         "startLines": "2,3,4,5,6",
                         "startColumns": "4,4,4,4,4",

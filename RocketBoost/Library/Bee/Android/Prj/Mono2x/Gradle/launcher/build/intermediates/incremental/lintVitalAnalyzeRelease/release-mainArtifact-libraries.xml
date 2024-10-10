@@ -1,9 +1,9 @@
 <libraries>
   <library
-      name="C:\Users\ralskwo\Desktop\Study\Unity\UnityGithub\RocketBoost\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release"
-      jars="C:\Users\ralskwo\Desktop\Study\Unity\UnityGithub\RocketBoost\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\5610a515e98437bb6e55c29a30522326\transformed\out\jars\classes.jar;C:\Users\ralskwo\Desktop\Study\Unity\UnityGithub\RocketBoost\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\5610a515e98437bb6e55c29a30522326\transformed\out\jars\libs\R.jar;C:\Users\ralskwo\Desktop\Study\Unity\UnityGithub\RocketBoost\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\5610a515e98437bb6e55c29a30522326\transformed\out\jars\libs\unity-classes.jar"
+      name="C:\Users\ralskwo\Desktop\Study\GitHub\UnityGithub\RocketBoost\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release"
+      jars="C:\Users\ralskwo\Desktop\Study\GitHub\UnityGithub\RocketBoost\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\89ad91ff8634aaa057872c35779706ce\transformed\out\jars\classes.jar;C:\Users\ralskwo\Desktop\Study\GitHub\UnityGithub\RocketBoost\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\89ad91ff8634aaa057872c35779706ce\transformed\out\jars\libs\R.jar;C:\Users\ralskwo\Desktop\Study\GitHub\UnityGithub\RocketBoost\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\89ad91ff8634aaa057872c35779706ce\transformed\out\jars\libs\unity-classes.jar"
       resolved="Gradle:unityLibrary:unspecified"
-      folder="C:\Users\ralskwo\Desktop\Study\Unity\UnityGithub\RocketBoost\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\5610a515e98437bb6e55c29a30522326\transformed\out"
+      folder="C:\Users\ralskwo\Desktop\Study\GitHub\UnityGithub\RocketBoost\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\89ad91ff8634aaa057872c35779706ce\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -13,7 +13,7 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="__local_aars__:C:\Users\ralskwo\Desktop\Study\Unity\UnityGithub\RocketBoost\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"
-      jars="C:\Users\ralskwo\Desktop\Study\Unity\UnityGithub\RocketBoost\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar"
-      resolved="__local_aars__:C:\Users\ralskwo\Desktop\Study\Unity\UnityGithub\RocketBoost\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified"/>
+      name="__local_aars__:C:\Users\ralskwo\Desktop\Study\GitHub\UnityGithub\RocketBoost\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"
+      jars="C:\Users\ralskwo\Desktop\Study\GitHub\UnityGithub\RocketBoost\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar"
+      resolved="__local_aars__:C:\Users\ralskwo\Desktop\Study\GitHub\UnityGithub\RocketBoost\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified"/>
 </libraries>

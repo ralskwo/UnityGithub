@@ -40,7 +40,9 @@ public class CollisionHandler : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         if (isTransitioning || collisionDisabled) return;
-        
+
+        Debug.Log(collision.gameObject.name);
+
         switch (collision.gameObject.tag)
         {
             case "Friendly":

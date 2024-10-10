@@ -1,6 +1,6 @@
 <lint-module
     format="1"
-    dir="C:\Users\ralskwo\Desktop\Study\Unity\UnityGithub\RocketBoost\Library\Bee\Android\Prj\Mono2x\Gradle\launcher"
+    dir="C:\Users\ralskwo\Desktop\Study\GitHub\UnityGithub\RocketBoost\Library\Bee\Android\Prj\Mono2x\Gradle\launcher"
     name=":launcher"
     type="APP"
     maven="Gradle:launcher:"
