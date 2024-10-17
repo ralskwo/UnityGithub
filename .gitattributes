@@ -1,7 +1,1 @@
-* text=auto
 
-*.unity binary
-*.prefab binary
-*.asset binary
-
-/Library/PackageCache/* text eol=lf
