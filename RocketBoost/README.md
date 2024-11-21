@@ -65,7 +65,7 @@
 
 ## 🎨 스크린샷
 
-![이미지 설명](RocketBoost\PlayImage.png)
+![이미지 설명](PlayImage.png)
 
 ---
 
