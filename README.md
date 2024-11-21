@@ -18,11 +18,7 @@ MiniPang 프로젝트는 Unity를 사용하여 만든 간단한 **퍼즐 게임*
 
 **Raycasting**과 Random Movement 기법을 사용한 프로젝트입니다. Raycast를 통해 오브젝트와 상호작용하거나, 오브젝트가 랜덤하게 움직이는 방법을 구현합니다.
 
-### [4. UnityNaverMapProject](https://github.com/ralskwo/UnityGithub/tree/main/UnityNaverMap)
-
-이 프로젝트는 Unity에서 **네이버 지도 API**를 활용하여 **지도 시각화 및 지오코딩 서비스**를 제공하는 애플리케이션입니다. **주소 검색, 지도 표시, 확대/축소 기능**을 포함하고 있으며, 네이버 클라우드 플랫폼에서 제공하는 API를 사용하여 구현되었습니다.
-
-### [5. NavMeshProject](https://github.com/ralskwo/UnityGithub/tree/main/NavMeshProject)
+### [4. NavMeshProject](https://github.com/ralskwo/UnityGithub/tree/main/NavMeshProject)
 
 이 프로젝트는 Unity의 **NavMesh**와 **NavMeshAgent**를 활용하여 **AI 캐릭터의 경로 탐색**을 구현한 예제입니다. AI는 경유 지점들을 따라 이동하며, **실시간 장애물 회피**와 **경로 재계산** 기능을 통해 복잡한 환경에서도 자연스럽게 움직일 수 있습니다. **NavMeshObstacle**을 사용하여 AI가 동적 장애물을 감지하고 새로운 경로를 설정할 수 있도록 합니다.
 
